@@ -644,3 +644,125 @@ Las historias han sido priorizadas en función al **valor para el negocio**, col
 | 3 | US04 | API Endpoint - Inventario | Como developer, deseo contar con un endpoint POST para registrar artículos... | 3 |
 | 4 | US03 | Dashboard Rentabilidad | Como dueño, deseo ver un gráfico en tiempo real para tomar decisiones... | 5 |
 | 5 | US05 | Configuración Roles | Como admin, deseo asignar roles para proteger la confidencialidad... | 2 |
+
+Capítulo IV: Product Design
+
+En este capítulo detallamos las directrices visuales, arquitectónicas y de experiencia de usuario que guiarán el desarrollo de CeTe. El diseño se fundamenta en heurísticas de usabilidad estandarizadas, garantizando una curva de aprendizaje mínima y alta eficiencia operativa.
+
+4.1. Style Guidelines.
+
+Para mantener la consistencia visual, hemos definido un Design System centralizado, apoyándonos en librerías de componentes estandarizadas para agilizar el desarrollo frontend.
+
+4.1.1. General Style Guidelines.
+
+Brand & Tono de Comunicación: Nuestra comunicación se rige por ser Seria (enfocada en productividad), Formal (transmite profesionalismo a los dueños), Respetuosa (valora el tiempo del operario) y Serena (interfaz limpia sin sobreestimulación).
+
+Typography: Montserrat (pesos 600 y 700) para encabezados, transmitiendo solidez. Roboto (pesos 300, 400 y 500) para el cuerpo de texto y tablas de datos, ofreciendo altísima legibilidad en pantallas densas.
+
+Colors (Paleta B2B):
+
+Primary Blue (#0A2540): Azul marino oscuro, denota estabilidad y seguridad.
+
+Secondary Blue (#204066): Para fondos secundarios y jerarquización.
+
+Accent Orange (#FF6A00): Naranja vibrante para Call-to-Actions (CTAs).
+
+Backgrounds (#F6F9FC & #FFFFFF): Tonos claros para mantener limpieza visual.
+
+Semantic Colors: Rojo para quiebres de stock, Verde para transacciones exitosas.
+
+4.1.2. Web Style Guidelines.
+
+Adoptaremos un sistema de grillas fluidas basadas en Flexbox/CSS Grid. Uso intensivo de Cards para agrupar información y Data Tables para altos volúmenes de registros. Los elementos interactivos tendrán estados hover y focus claramente definidos.
+
+4.2. Information Architecture.
+
+La arquitectura está diseñada para que usuarios operativos y gerentes encuentren lo que necesitan con el menor número de clics posible.
+
+4.2.1. Organization Systems.
+
+Organización Jerárquica: En el menú lateral (Sidebar). Módulos principales (Inventario, Ventas) revelan submódulos (Ingresos, Salidas).
+
+Organización Matricial: En las tablas de inventario, cruzando variables como SKU, cantidad y estado.
+
+Organización Secuencial: En flujos críticos como el Manifiesto de Despacho, guiando al operario paso a paso.
+
+4.2.2. Labeling Systems.
+
+Las etiquetas reflejan el Ubiquitous Language:
+
+En lugar de "Crear un nuevo ítem", usaremos "Registrar Entrada".
+
+En lugar de "Módulo de envíos", usaremos "Despacho y Trazabilidad".
+
+Botones de confirmación precisos: "Aprobar Manifiesto".
+
+4.2.3. SEO Tags and Meta Tags
+
+<!-- Landing Page SEO Tags -->
+<title>CeTe | Gestión Logística Inteligente para MYPES</title>
+<meta name="description" content="CeTe centraliza inventario, facturación y ventas para PYMES y MYPES. Simplifica tu cadena de suministro con nuestra plataforma B2B SaaS.">
+<meta name="keywords" content="gestión de inventario, facturación electrónica MYPES, ERP para restaurantes, software logística Perú, CeTe">
+<meta name="author" content="Nexxus (Salazar Marquina, Kevin et al.)">
+
+<!-- Web Application App Tags -->
+<title>Dashboard | CeTe App</title>
+<meta name="robots" content="noindex, nofollow"> <!-- Evita indexar datos privados -->
+
+
+4.2.4. Searching Systems.
+
+Búsqueda Global: En la barra superior, escaneando código de barras o escribiendo SKU/nombre.
+
+Búsqueda Facetada (Filtros): Filtros simultáneos combinados en las tablas de datos.
+
+Presentación: Resultados en tiempo real con resaltado del término y mensajes de "Not Found" claros.
+
+4.2.5. Navigation Systems.
+
+Top App Bar (Landing Page): Navegación anclada (sticky) con enlaces ancla y CTAs persistentes ("Prueba Gratis").
+
+Side Navigation Drawer (Web App): Menú lateral izquierdo colapsable para maximizar el espacio útil de las tablas de datos.
+
+4.3. Landing Page UI Design.
+
+4.3.1. Landing Page Wireframe.
+
+Nuestros wireframes priorizan la heurística de "Diseño estético y minimalista". El Hero Section contiene una propuesta de valor clara y la estructura modular se adapta fácilmente a Mobile.
+(Placeholder: [Imagen_Wireframes_Landing_Desktop_Mobile.jpg])
+
+4.3.2. Landing Page Mock-up.
+
+Mock-ups de alta fidelidad aplicando nuestro Design System. Uso de botones .btn-primary (Naranja) sobre fondos oscuros o claros, cumpliendo estándares de contraste WCAG.
+(Placeholder: [Imagen_Mockups_Landing.jpg])
+
+4.4. Web Applications UX/UI Design.
+
+El enfoque principal es la eficiencia del usuario operativo, minimizando la carga de memoria y previniendo errores.
+
+4.4.1. Web Applications Wireframes.
+
+Se implementó un Sidebar colapsable y una amplia área central para maximizar el espacio útil en pantalla, vital para revisar listados de SKUs.
+(Placeholder: [Imagen_Wireframes_WebApp.jpg])
+
+4.4.2. Web Applications Wireflow Diagrams.
+
+User Goal: Registrar un ingreso de mercadería.
+El flujo ilustra el paso a paso: clic en "Registrar Entrada", llenado de datos en el Modal (Dialog), y emisión de alerta de confirmación (Toast) con actualización dinámica de la tabla.
+(Placeholder: [Imagen_Wireflow_IngresoMercaderia.jpg])
+
+4.4.3. Web Applications Mock-ups.
+
+Diseño limpio usando alertas de colores semánticos para reducir el estrés cognitivo del operario durante el uso prolongado.
+(Placeholder: [Imagen_Mockups_WebApp.jpg])
+
+4.4.4. Web Applications User Flow Diagrams.
+
+User Goal: Procesar un Despacho / Venta.
+El happy path muestra una validación exitosa. El unhappy path detalla la detección de un "Quiebre de Stock", mostrando una alerta preventiva roja al usuario.
+(Placeholder: [Imagen_UserFlow_Despacho.jpg])
+
+4.5. Web Applications Prototyping.
+
+Prototipo navegable en Figma, configurando estados reactivos para brindar retroalimentación inmediata, simulando el comportamiento ágil de una SPA (Single Page Application).
+(Placeholder: [Captura_Prototipo_Figma.jpg])
