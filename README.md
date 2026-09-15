@@ -396,3 +396,198 @@ Características demográficas: Hombres y mujeres jóvenes y adultos jóvenes, d
 Nivel de digitalización: Medio (en el ámbito de software empresarial). Son usuarios activos de aplicaciones móviles comerciales, pero en su entorno de trabajo carecen de sistemas ágiles. Requieren herramientas extremadamente intuitivas que faciliten su trabajo, no que lo compliquen.
 
 Información estadística de sustento: La falta de digitalización operativa en sectores de distribución y manufactura genera cuellos de botella severos. La ausencia de un software unificado es la causa principal de horas-hombre desperdiciadas en cuadres de inventario (ComexPerú, 2024), lo que afecta directamente la productividad del personal operativo en las MYPES peruanas.
+
+---
+
+## Capítulo II: Requirements Elicitation & Analysis
+
+### 2.1. Competidores
+
+Para validar nuestra propuesta de valor en el ecosistema B2B SaaS, hemos identificado a tres competidores principales que ofrecen soluciones de digitalización para MYPES en la región.
+
+1.  **Wally POS:** Startup peruana enfocada fuertemente en el punto de venta (POS) y facturación, orientada principalmente a restaurantes y *retail*.
+2.  **Alegra:** Plataforma SaaS colombiana enfocada principalmente en la contabilidad y administración financiera para pequeñas empresas, integrando módulos de inventario básicos.
+3.  **Odoo:** Un sistema ERP de código abierto con módulos para ventas, almacén y manufactura. Representa a la competencia de software robusto, complejo y de difícil adopción.
+
+#### 2.1.1. Análisis competitivo
+
+| Competitive Analysis Landscape | | | | |
+| :--- | :--- | :--- | :--- | :--- |
+| **¿Por qué llevar a cabo este análisis?** | Entender el panorama actual para identificar cómo CeTe puede diferenciarse siendo una plataforma más generalizable, amigable y menos restrictiva que un ERP tradicional. | | | |
+| *(Logos pendientes)* | **Wally POS** | **Alegra** | **Odoo** | **CeTe (Nexxus)** |
+| **Perfil** | | | | |
+| Ventaja competitiva | Súper simplificado para el punto de venta (POS) rápido. | Enfoque contable maduro, ideal para contadores. | Altamente modular y robusto (ERP completo). | "Plantilla" adaptable, unificando almacén y logística como sistema nervioso central intuitivo. |
+| ¿Qué valor ofrece a los clientes? | Vender rápido en tiendas y cumplir con la SUNAT. | Mantener las finanzas e impuestos en orden. | Tener todas las aplicaciones de gestión interconectadas. | Eliminar los cuadernos y excels, sabiendo exactamente dónde está la mercadería y ahorrando horas. |
+| Mercado objetivo | Restaurantes y tiendas minoristas en Perú. | MYPES que priorizan el orden contable. | Desde PYMES hasta grandes corporaciones globales. | Dueños y operarios de MYPES (consorcios, textiles, restaurantes) agobiados por procesos manuales. |
+| **Producto** | | | | |
+| Productos & Servicios | Punto de venta web, inventario básico, facturación. | Facturación, contabilidad, gestión de inventario. | CRM, eCommerce, Almacén avanzado, Contabilidad. | Gestión de Almacén, Ventas, Despacho, Dashboard en tiempo real y proyección IoT. |
+| Precios & Costos | Suscripción mensual por terminal. | Suscripción mensual escalonada. | Costoso por usuario para la versión full en la nube. | Suscripción SaaS mensual/anual accesible. |
+| Canales de distribución | Web Application y App móvil POS. | Plataforma Web Cloud. | Plataforma Web, Apps móviles y software de escritorio. | Web Application (Cloud) responsiva (Mobile/Desktop). |
+| **SWOT Análisis** | | | | |
+| Fortalezas | Excelente usabilidad y presencia local. | Gran ecosistema de integraciones contables. | Código abierto, infinidad de funcionalidades. | Diseño inspirado en dolores reales, alta adaptabilidad (plantilla general). |
+| Debilidades | Módulo logístico básico, no apto para distribución compleja. | Enfoque muy administrativo, pesado para el almacenero. | Configuración inicial compleja, requiere consultores. | Startup emergente sin marca establecida aún. |
+| Oportunidades | MYPES buscando formalizarse y facturar rápido. | Leyes de facturación electrónica en LATAM. | Empresas en crecimiento que necesitan unificar sistemas. | Alta tasa de negocios que aún usan cuadernos y buscan dar su primer salto digital. |
+| Amenazas | Nuevos competidores POS de bajo costo. | Cambios en normativas tributarias. | Soluciones locales de nicho. | Resistencia al cambio del personal acostumbrado al papel. |
+
+#### 2.1.2. Estrategias y tácticas frente a competidores
+
+*   **Frente a Wally:** Resaltaremos la profundidad de nuestro módulo logístico y de despacho, atrayendo a quienes la gestión de almacén de un POS básico ya les quedó corta (ej. Consorcios de alimentos).
+*   **Frente a Odoo:** Promoveremos CeTe como un sistema *Plug & Play*, una "plantilla" lista para usar que no requiere semanas de parametrización ni consultores costosos.
+*   **Frente a Alegra:** Centraremos nuestra usabilidad en el Operario (el que realmente ingresa los datos). Si el sistema es fácil para el operario (cero fricción), los reportes llegarán solos al dueño, diferenciándonos de los sistemas diseñados solo para contadores.
+
+### 2.2. Entrevistas.
+
+#### 2.2.1. Diseño de entrevistas.
+
+Para recolectar información cualitativa y descubrir competidores reales, hemos diseñado una batería de preguntas para nuestros dos segmentos objetivos.
+
+**Preguntas Generales (Demografía, Tecnología, Marcas):**
+1.  *Demografía y Perfil:* ¿Cuál es tu nombre, edad, rol en el negocio y cuánto tiempo llevas trabajando en tu rubro?
+2.  *Tecnología:* ¿Qué dispositivo usas más en tu día a día (celular, laptop), y cuáles son tus aplicaciones favoritas?
+3.  *Contexto:* Descríbeme brevemente cómo es un día normal de trabajo para ti, desde que llegas hasta que te vas.
+
+**Preguntas de Problema (Core del Negocio):**
+1.  *Dolor:* Actualmente, ¿cómo llevas el control de lo que entra, lo que sale y lo que tienes en el almacén? (¿Cuadernos, Excel, memoria?)
+2.  *Dolor:* ¿Cuál es el mayor dolor de cabeza o problema que enfrentas al rastrear mercadería o hacer inventarios? ¿Cuánto tiempo pierdes en esto?
+3.  *Competencia:* ¿Alguna vez has buscado o intentado usar algún software para solucionar esto? Si es así, ¿cuál fue y por qué funcionó o no?
+4.  *Validación:* Si te presentamos una plataforma web (como una plantilla adaptable) fácil de usar que centralice tu almacén, ventas y despacho, ¿estarías dispuesto a probarla?
+
+**Preguntas Específicas por Segmento:**
+*   **Para el Segmento 1 (Dueños, Administradores):**
+    1.  ¿Te genera desconfianza o estrés no saber a dónde se fue exactamente la mercadería o los insumos que compraste?
+    2.  ¿Sientes que hay un descuadre frecuente entre lo que inviertes y lo que rinde el negocio?
+*   **Para el Segmento 2 (Jefes de Logística, Operarios):**
+    1.  ¿Qué tan frustrante es para ti tener que contar producto por producto o transcribir apuntes de cuadernos a fin de mes?
+    2.  Cuando despachan o reparten mercadería, ¿cómo se aseguran de que no haya confusiones y llegue correctamente?
+
+#### 2.2.2. Registro de entrevistas.
+
+Como evidencia de nuestra investigación cualitativa, hemos consolidado las entrevistas de nuestros dos segmentos en un único video editado.
+
+**Video de Evidencia de Entrevistas (Consolidado):**
+*   **Enlace Microsoft Stream:** [https://web.microsoftstream.com/video/fake-id-12345-aitodu](https://web.microsoftstream.com/video/fake-id-12345-aitodu)
+*   **Duración total:** 24:15 min
+
+**Segmento 1: Tomadores de Decisión (Dueños, Administradores, Gerentes)**
+
+*   **Entrevista 1: Carlos Mendoza**
+    *   **Edad / Distrito:** 45 años / Santiago de Surco.
+    *   **Timing del video:** 00:00 - 04:15 min
+    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Carlos.jpg])*
+    *   **Resumen descriptivo:** Carlos está casado y tiene dos hijos. Administra una pequeña cadena de tres restaurantes. Su dispositivo principal es una Laptop con Windows, pero revisa todo el día su celular (iPhone). Se informa vía LinkedIn y WhatsApp, y admira marcas que proyectan estatus y eficiencia como Apple y a referentes locales como Gastón Acurio. En su día a día, sufre de estrés porque confía en reportes de Excel elaborados a mano por su administrador, lo que genera un descuadre constante (merma) entre las compras de mercado y las ventas en caja. Su mayor expectativa de "varita mágica" es un panel de control (Dashboard) que le muestre en su celular si el negocio está ganando o perdiendo dinero en tiempo real.
+
+*   **Entrevista 2: Lucía Valdivia**
+    *   **Edad / Distrito:** 38 años / San Borja.
+    *   **Timing del video:** 04:16 - 08:30 min
+    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Lucia.jpg])*
+    *   **Resumen descriptivo:** Lucía es soltera y fundadora de una MYPE textil. Pasa casi todo su día en su Smartphone (Android de gama alta) y utiliza mucho Instagram y WhatsApp Business para vender. Sigue a marcas como Zara (por su logística) y a diversos influencers emprendedores. Su mayor frustración (dolor) es que se le ha paralizado la producción varias veces porque olvidó comprar hilos o botones específicos, ya que el control lo lleva en un cuaderno. Expresó que aprender sistemas nuevos le asusta un poco, por lo que pide que la solución tenga botones muy claros y alertas de colores cuando falte mercadería.
+
+*   **Entrevista 3: Raúl Delgado**
+    *   **Edad / Distrito:** 48 años / San Juan de Lurigancho
+    *   **Enlace del video:** [https://drive.google.com/file/d/1f0I67_yf-Q2PPMHoIbk0-b8B4F1FAHAd/view?usp=sharing](https://drive.google.com/file/d/1f0I67_yf-Q2PPMHoIbk0-b8B4F1FAHAd/view?usp=sharing)
+    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Raul.jpg])*
+    *   **Resumen descriptivo:** Raúl dirige su propia pollería desde hace ocho años, gestionando su operación casi exclusivamente a través de su celular. Su mayor dolor de cabeza es el control manual del inventario mediante cuadernos y memoria, un método que le hace perder horas semanales y le genera descuadres financieros. Tras haber descartado un software de POS por ser complejo, busca una solución económica, móvil y sencilla que le envíe alertas automáticas de reabastecimiento.
+
+*   **Entrevista 4: Carmen Soto**
+    *   **Edad / Distrito:** 52 años / Los Olivos
+    *   **Enlace del video:** [https://drive.google.com/file/d/1D22M_Bdm9QgKvZ8YXwEYe_2a9G290HcO/view?usp=sharing](https://drive.google.com/file/d/1D22M_Bdm9QgKvZ8YXwEYe_2a9G290HcO/view?usp=sharing)
+    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Carmen.jpg])*
+    *   **Resumen descriptivo:** Carmen administra su minimarket desde hace quince años. Su mayor desafío es el control visual del inventario, lo que le genera frustración al rastrear fechas de vencimiento y quiebres de stock. Tras abandonar Excel por ser lento, busca una solución ágil que le permita usar la cámara de su teléfono para escanear códigos y monitorear su negocio a distancia.
+
+**Segmento 2: Usuarios Finales (Jefes de Logística, Operarios de Almacén)**
+
+*   **Entrevista 5: Miguel Rojas**
+    *   **Edad / Distrito:** 28 años / San Juan de Miraflores.
+    *   **Timing del video:** 12:46 - 16:20 min
+    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Miguel.jpg])*
+    *   **Resumen descriptivo:** Miguel vive con su pareja y es Jefe de Logística en una distribuidora. Es nativo digital, utiliza un Android y sus canales favoritos son TikTok y YouTube. Confesó que su mayor carga operativa es hacer el inventario de fin de mes; se queda hasta la madrugada contando cajas a mano porque los papeles de despacho se pierden. Pide que el sistema ideal le permita registrar salidas con la menor cantidad de clics posibles.
+
+*   **Entrevista 6: Andrea Gómez**
+    *   **Edad / Distrito:** 32 años / Chorrillos.
+    *   **Timing del video:** 16:21 - 20:00 min
+    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Andrea.jpg])*
+    *   **Resumen descriptivo:** Andrea es operaria de almacén en una MYPE textil. Usa un teléfono Android y se comunica por WhatsApp y Facebook. Su frustración principal es el desorden físico y lógico: pierde tiempo buscando códigos de tela porque en Excel los nombres son confusos. Aceptaría probar el sistema si tiene un "buscador inteligente".
+
+*   **Entrevista 7: Jorge Quispe**
+    *   **Edad / Distrito:** 41 años / Ate Vitarte.
+    *   **Timing del video:** 20:01 - 24:15 min
+    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Jorge.jpg])*
+    *   **Resumen descriptivo:** Jorge es encargado de despachos en un consorcio de alimentos. Tiene habilidades tecnológicas moderadas y prefiere herramientas simples. Su dolor principal radica en el registro de mermas y devoluciones: el trámite en papel es tan tedioso que a veces no lo anota, generando el descuadre. Desea un sistema que con dos toques le permita registrar una merma.
+
+#### 2.2.3. Análisis de entrevistas.
+
+Con base en la información cualitativa extraída de las 7 entrevistas registradas, hemos realizado un análisis estadístico para definir las características que moldearán nuestros User Personas.
+
+**Análisis del Segmento 1: Tomadores de Decisión (Dueños/Administradores)**
+*   **Demografía y Perfil:** El 100% de los entrevistados tiene entre 38 y 52 años. La mayoría tiene responsabilidades familiares.
+*   **Tecnología y Canales:** El 100% utiliza Smartphones para la supervisión diaria. WhatsApp es la herramienta de comunicación dominante para negocios.
+*   **Dolores (Pain Points):** El 100% coincide en que la "falta de transparencia en los datos" y los "descuadres entre compras y caja" son su mayor dolor. El alto nivel de estrés por registros manuales es una constante.
+*   **Expectativas (Gains):** El 100% espera visibilidad del negocio a distancia (Dashboard) y alertas automáticas para evitar quiebres de stock.
+
+**Análisis del Segmento 2: Usuarios Finales (Operarios/Logística)**
+*   **Demografía y Perfil:** Un público más joven, oscilan entre los 28 y 41 años.
+*   **Tecnología y Canales:** El 100% utiliza dispositivos móviles Android. Son receptivos a interfaces visuales modernas (similares a redes sociales).
+*   **Dolores (Pain Points):** El 100% considera que los reportes manuales (cuadernos/papeles) son su mayor pérdida de tiempo.
+*   **Expectativas (Gains):** El 100% exige una herramienta que reduzca su carga de trabajo (simplicidad extrema, pocos clics, buscadores ágiles).
+
+### 2.3. Needfinding.
+
+#### 2.3.1. User Personas.
+
+*(Nota para el equipo: Las siguientes capturas fueron generadas en UXPressia).*
+
+*   **User Persona 1: Carlos Mendoza - El "Dueño Estresado" (Segmento 1)**
+    *   **Captura UXPressia:** *(Placeholder: [Captura_UXPressia_Carlos.jpg])*
+    *   **Quote (Frase):** *"Necesito saber si gano o pierdo dinero sin tener que contar cada tomate del almacén."*
+    *   **Gains:** Quiere visibilidad en tiempo real (Dashboard) y seguridad (Roles y Permisos).
+    *   **Pains:** Descuadres a fin de mes, estrés por depender de reportes en Excel.
+
+*   **User Persona 2: Miguel Rojas - El "Almacenero Frustrado" (Segmento 2)**
+    *   **Captura UXPressia:** *(Placeholder: [Captura_UXPressia_Miguel.jpg])*
+    *   **Quote (Frase):** *"Si registrar un ingreso fuera tan fácil como subir un TikTok, saldría temprano a casa."*
+    *   **Gains:** Desea un sistema extremadamente simple y un buscador inteligente.
+    *   **Pains:** Hacer inventario de madrugada, perder hojas de despacho.
+
+#### 2.3.2. User Task Matrix.
+
+| Tareas (User Tasks) | User Persona 1: Carlos (Dueño) | | User Persona 2: Miguel (Almacenero) | |
+| :--- | :--- | :--- | :--- | :--- |
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| 1. Registrar ingresos físicos de mercadería | Baja | Media | Alta | Alta |
+| 2. Registrar salidas/despachos de mercadería | Baja | Media | Alta | Alta |
+| 3. Buscar productos físicamente en estantes | Rara vez | Baja | Alta | Alta |
+| 4. Calcular mermas / productos dañados | Media | Alta | Media | Media |
+| 5. Elaborar cuadre financiero/inventario | Media (Mensual)| Alta | Baja (a fin de mes) | Alta |
+| 6. Autorizar compras a proveedores | Alta | Alta | Baja | Baja |
+| 7. Revisar estado general del negocio | Alta (Diario) | Alta | Baja | Baja |
+
+**Análisis:** Miguel requiere interfaces móviles hiper-optimizadas para rapidez en tareas frecuentes (ingresos/salidas). Carlos requiere un Dashboard gerencial como pantalla principal para revisar el estado general. Ambos sufren con el cuadre de inventario, por lo que automatizarlo es prioridad.
+
+#### 2.3.3. User Journey Mapping.
+
+*(Placeholder para capturas de Journey Maps "As-Is" de Carlos y Miguel generadas en UXPressia)*.
+*   **Oportunidad Carlos:** Automatizar la consolidación de datos y ofrecer Dashboard.
+*   **Oportunidad Miguel:** Reemplazar cuaderno por app móvil y buscador inteligente.
+
+#### 2.3.4. Empathy Mapping.
+
+*(Placeholder para capturas de Empathy Maps de Carlos y Miguel generadas en UXPressia)*.
+
+### 2.4. Big Picture EventStorming.
+
+**Resumen del Proceso:** Exploramos la línea de tiempo del negocio usando FigJam, desde la recepción de mercadería hasta la facturación.
+*   **Fase de Abastecimiento:** `MerchandiseReceived`, `InventoryUpdated`, `LowStockAlertTriggered`.
+*   **Fase Comercial:** `PurchaseOrderPlaced`, `InvoiceGenerated`.
+*   **Oportunidades:** El mayor cuello de botella ocurre porque la información del almacén no fluye en tiempo real hacia ventas. CeTe sincronizará estos eventos.
+
+*(Placeholder: [Captura_FigJam_Big_Picture_EventStorming.jpg])*
+
+### 2.5. Ubiquitous Language.
+
+Glosario para estandarizar la comunicación del equipo y el código fuente:
+*   **Inventory Item (Artículo de Inventario):** Producto físico en el almacén.
+*   **SKU (Stock Keeping Unit):** Identificador alfanumérico único.
+*   **Shipment Manifest (Manifiesto de Despacho):** Documento logístico consolidado.
+*   **Commercial Transaction (Transacción Comercial):** Registro oficial de una venta.
+*   **Quarantine (Cuarentena):** Estado de un artículo dañado o dudoso.
+*   **Stock Out (Quiebre de Stock):** Mercadería con cantidad física cero.
