@@ -1,6 +1,10 @@
-UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<div align="center">
+<h3>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h3><br>
 
-CURSO: Aplicaciones Web (8168)
+<img src="Images/logo-upc.png"><br>
+
+
+<h4>CURSO: Aplicaciones Web (8168)
 
 PROFESORES: Bautista Ubillús, Efraín Ricardo / Mori Paiva, Hugo Allan / Sánchez Ponce, Alex Humberto / Sánchez Seña, Alberto Wilmer / Velásquez Núñez, Ángel Augusto / Villafuerte Bazán, Óscar Iván
 
@@ -23,6 +27,9 @@ U202417747 - Salazar Marquina, Kevin Junior
 U202422620 - Salazar Quiche, Darikson Bill
 
 Lima, Septiembre de 2026
+
+</div>
+
 
 Registro de Versiones del Informe
 
