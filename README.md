@@ -16,7 +16,7 @@ U202421123 - Anahua Ancachi, Liz Maribel
 
 U202414313 - Campoblanco Guzman, Diego Roberto
 
-U202XXXXXX - [Apellido], Piero (Por completar)
+u20241g031 - Montes Chang, Piero
 
 U202417747 - Salazar Marquina, Kevin Junior
 
@@ -765,4 +765,158 @@ El happy path muestra una validación exitosa. El unhappy path detalla la detecc
 4.5. Web Applications Prototyping.
 
 Prototipo navegable en Figma, configurando estados reactivos para brindar retroalimentación inmediata, simulando el comportamiento ágil de una SPA (Single Page Application).
-(Placeholder: [Captura_Prototipo_Figma.jpg])
+(Placeholder: [Captura_Prototipo_Figma.jpg]).
+
+4.6. Domain-Driven Software Architecture.
+
+A partir del entendimiento general del negocio logrado en el Big Picture Event Storming, hemos profundizado en la arquitectura del software aplicando Domain-Driven Design (DDD). En esta sección presentamos la transición de los eventos de negocio hacia artefactos de software concretos y su representación estructural utilizando el Modelo C4. El diseño técnico subyacente se apoyará en un backend sólido desarrollado en C# con ASP.NET Core 8.
+
+4.6.1. Design-Level EventStorming.
+
+El equipo llevó a cabo una sesión de Design-Level Event Storming para refinar los eventos descubiertos y agruparlos lógicamente. Identificamos los Commands (acciones, notas azules) que disparan los eventos, los Aggregates (entidades de dominio, notas amarillas) que validan las reglas, y las Queries (notas verdes) necesarias para la UI. Definimos Bounded Contexts principales:
+
+Warehouse Management (Core Domain): Control de stock y movimientos.
+
+Sales & Billing: Administra transacciones comerciales.
+
+(Placeholder: [Captura_Design_Level_EventStorming.jpg])
+
+4.6.2. Software Architecture Context Diagram.
+
+El Diagrama de Contexto (Nivel 1 del Modelo C4) ilustra a CeTe en el centro de su entorno, interactuando con actores y sistemas externos.
+
+Usuarios: Business Owner (dueño) y Warehouse Operator (almacenero).
+
+Sistemas Externos: El sistema se integra con la SUNAT API (para la validación de facturas) y con un Email Gateway (para envío de alertas).
+
+(Placeholder: [Diagrama_Context_C4.jpg])
+
+4.6.3. Software Architecture Container Diagrams.
+
+El Diagrama de Contenedores (Nivel 2 del Modelo C4) descompone el sistema central en unidades de despliegue, reflejando nuestras decisiones tecnológicas:
+
+Landing Page: Frontend estático (HTML5, CSS3, JS).
+
+Single Page Application (Frontend Container): Desarrollada con Vue.js y PrimeVue. Se comunica asíncronamente vía JSON/HTTPS.
+
+RESTful API Application (Backend Container): Desarrollada en C# con ASP.NET Core 8. Este contenedor expone los Endpoints y procesa la lógica de negocio orientada a dominio.
+
+Database Container: Base de datos relacional (PostgreSQL) para persistir el estado del sistema.
+
+(Placeholder: [Diagrama_Container_C4.jpg])
+
+4.6.4. Software Architecture Components Diagrams.
+
+El Diagrama de Componentes (Nivel 3 del Modelo C4) hace un zoom dentro del contenedor del RESTful API (C#). El diagrama muestra cómo las peticiones HTTP entrantes son interceptadas por el SecurityMiddleware, canalizadas hacia un InventoryController (API endpoint), procesadas por el InventoryService (lógica de dominio) y persistidas utilizando InventoryRepository (apoyado en Entity Framework Core).
+
+(Placeholder: [Diagrama_Component_C4.jpg])
+
+4.7. Software Object-Oriented Design.
+
+En esta sección detallamos cómo los conceptos de DDD se traducen en código C#. El diseño orientado a objetos protege los invariantes encapsulando el estado y exponiendo solo métodos con significado de dominio.
+
+4.7.1. Class Diagrams.
+
+Los Diagramas de Clases UML mapean nuestras entidades backend.
+
+Clase InventoryItem (Aggregate Root): Las propiedades de estado (ej. Id, Sku, Quantity) utilizan el modificador { get; private set; } en C# para evitar mutaciones externas directas. Expone métodos públicos como AddStock(int amount) o DecreaseStock(int amount) que validan las reglas lógicas internamente antes de cambiar la cantidad.
+
+(Placeholder: [Diagrama_Clases_UML.jpg])
+
+4.8. Database Design.
+
+El diseño de nuestra base de datos relacional PostgreSQL, mapeada a través de Entity Framework Core (C#), respeta la separación de Bounded Contexts.
+
+4.8.1. Database Diagrams.
+
+Los diagramas (ERD) muestran la estructura física:
+
+Tabla InventoryItems: Llave primaria UUID, columnas para el código SKU y cantidades.
+
+Tabla Transactions: Llave primaria, montos y timestamps. Las relaciones se mantienen optimizadas para soportar el esquema transaccional del negocio logístico.
+
+(Placeholder: [Diagrama_BaseDatos_ERD.jpg])
+
+Capítulo V: Product Implementation, Validation & Deployment
+
+5.1. Software Configuration Management.
+
+5.1.1. Software Development Environment Configuration.
+
+Gestión de Proyectos: Trello / Jira Software.
+
+Control de Versiones: Git y GitHub.
+
+Diseño UX/UI: Figma y UXPressia.
+
+IDE Backend: Visual Studio 2022 / JetBrains Rider (C# .NET 8).
+
+IDE Frontend: WebStorm / VS Code (Vue.js, HTML, CSS).
+
+5.1.2. Source Code Management.
+
+Implementaremos el flujo de trabajo GitFlow, manteniendo una rama main para producción, una rama develop para integración y múltiples ramas feature/* para el desarrollo en paralelo. Utilizaremos Conventional Commits y Semantic Versioning para estructurar el historial.
+
+5.1.3. Source Code Style Guide & Conventions.
+
+Aplicaremos nomenclatura en inglés para todo el código fuente. Se respetarán las guías de estilo oficiales: C# Coding Conventions (Microsoft), Vue Style Guide y HTML/CSS Style Guide.
+
+5.1.4. Software Deployment Configuration.
+
+El despliegue de las aplicaciones (Landing Page, Frontend Web App y RESTful API) se configurará utilizando servicios Cloud (Placeholder: Azure / AWS / Vercel), asegurando accesibilidad y performance.
+
+5.2. Landing Page, Services & Applications Implementation.
+
+5.2.1. Sprint 1
+
+5.2.1.1. Sprint Planning 1: (Placeholder para cuadro de planificación)
+
+5.2.1.2. Aspect Leaders and Collaborators: (Placeholder para matriz de liderazgo)
+
+5.2.1.3. Sprint Backlog 1: (Placeholder para backlog del sprint)
+
+5.2.1.4. Development Evidence: (Placeholder para tabla de commits)
+
+5.2.1.5. Execution Evidence: (Placeholder para capturas y video)
+
+5.2.1.6. Services Documentation Evidence: (Placeholder para OpenAPI/Swagger)
+
+5.2.1.7. Software Deployment Evidence: (Placeholder para capturas de Cloud)
+
+5.2.1.8. Team Collaboration Insights: (Placeholder para analíticas de GitHub)
+
+5.3. Validation Interviews.
+
+5.3.1. Diseño de entrevistas: Preparación de tareas a evaluar (Ej. Registrar un nuevo artículo).
+
+5.3.2. Registro de Entrevistas: (Placeholder para videos y resúmenes de evaluación).
+
+5.3.3. Evaluaciones según heurísticas: Análisis de Usabilidad, Arquitectura de Información y Diseño Inclusivo (a11y).
+
+5.4. Video About-the-Product.
+
+(Placeholder para el enlace a Microsoft Stream / YouTube con el video promocional).
+
+Conclusiones
+
+La investigación validó nuestros Assumptions: Las MYPES peruanas sufren pérdidas económicas por falta de trazabilidad y necesitan herramientas con cero fricción operativa.
+
+El diseño del Landing Page y la Web App de CeTe lograron materializar las expectativas de nuestros User Personas, equilibrando la simplicidad para el operario (Miguel) y el control financiero para el dueño (Carlos).
+
+La arquitectura orientada a dominio (DDD) y el Modelo C4 nos permitieron establecer bases técnicas sólidas, modulares y escalables preparadas para futuras integraciones IoT.
+
+Video About-the-Team.
+
+(Placeholder para el enlace a Microsoft Stream / YouTube con la retrospectiva del equipo).
+
+Bibliografía
+
+Gothelf, J., & Seiden, J. (2021). Lean UX: Designing Great Products with Agile Teams (3rd ed.). O'Reilly Media.
+
+Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley Professional.
+
+Brown, S. (n.d.). The C4 model for visualising software architecture. Recuperado de https://c4model.com/
+
+Anexos
+
+(Placeholder para el cuadro de Student Outcome ABET y el Participant Performance Report)
