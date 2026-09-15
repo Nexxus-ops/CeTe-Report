@@ -591,3 +591,56 @@ Glosario para estandarizar la comunicación del equipo y el código fuente:
 *   **Commercial Transaction (Transacción Comercial):** Registro oficial de una venta.
 *   **Quarantine (Cuarentena):** Estado de un artículo dañado o dudoso.
 *   **Stock Out (Quiebre de Stock):** Mercadería con cantidad física cero.
+
+---
+
+## Capítulo III: Requirements Specification
+
+Esta sección consolida la especificación de los requisitos de software que darán vida a CeTe. Para garantizar un desarrollo ágil y centrado en el valor, todo el equipo ha colaborado en la redacción de Epics e Historias de Usuario aplicando estrictamente el acrónimo **INVEST**. Los criterios de aceptación han sido redactados en formato Gherkin (Given-When-Then).
+
+### 3.1. User Stories
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| :--- | :--- | :--- | :--- | :--- |
+| **EP01** | **Landing Page y Onboarding** | Como Visitante, deseo informarme sobre CeTe y registrarme para iniciar mi suscripción. | (Ver User Stories asociadas) | - |
+| US01 | Visualización de Planes | Como Visitante, deseo visualizar los planes de suscripción para evaluar cuál se adapta mejor a mi MYPE. | **Criterio 1:**<br>**Given** que un visitante accede a la sección de precios<br>**When** solicita ver la información<br>**Then** el sistema muestra los planes disponibles con sus características y costos. | EP01 |
+| **EP02** | **Gestión de Inventario** | Como Operario de Almacén, deseo gestionar las existencias para evitar pérdidas y quiebres de stock. | (Ver User Stories asociadas) | - |
+| US02 | Registro de Mercadería | Como Operario, deseo registrar un nuevo artículo (Inventory Item) para mantener el stock actualizado. | **Criterio 1:**<br>**Given** que el operario tiene los datos de un nuevo producto<br>**When** envía la solicitud con datos válidos<br>**Then** el sistema registra el artículo y actualiza la cantidad total. | EP02 |
+| **EP03** | **Transacciones Comerciales** | Como Dueño de Negocio, deseo registrar ventas y cruzar datos con el almacén para monitorear mis ganancias. | (Ver User Stories asociadas) | - |
+| US03 | Creación de Venta | Como Dueño, deseo generar una Transacción Comercial para descontar productos del almacén y registrar el ingreso. | **Criterio 1:**<br>**Given** que el dueño inicia una transacción comercial<br>**When** agrega un artículo que tiene stock disponible<br>**Then** el sistema calcula el subtotal y reserva el artículo temporalmente. | EP03 |
+| **EP04** | **Arquitectura de Servicios (API)** | Como Developer, deseo contar con endpoints robustos y seguros para conectar la Web App con la Base de Datos. | (Ver User Stories asociadas) | - |
+| US04 | Endpoint de Consulta de Stock | Como Developer, deseo disponer de un endpoint GET para consultar el stock disponible mediante un SKU. | **Criterio 1:**<br>**Given** que existe un artículo con SKU válido en la base de datos<br>**When** el cliente HTTP realiza una petición GET a `/api/v1/inventory/{sku}`<br>**Then** el servidor retorna un código 200 OK con el objeto JSON del inventario. | EP04 |
+
+### 3.2. Impact Mapping.
+
+**Business Goal (Objetivo SMART):** Alcanzar 30 negocios suscritos a los planes de pago de CeTe en los primeros 6 meses tras el lanzamiento oficial.
+
+1.  **Actor: Visitante MYPE (Potencial Cliente)**
+    *   **Impact:** Comprender rápidamente la propuesta de valor y motivarse a probar.
+    *   **Deliverable:** Landing page estático persuasivo y claro.
+    *   **User Stories:** US01 (Visualizar Propuesta de Valor en Landing Page).
+2.  **Actor: Carlos (Dueño de Negocio)**
+    *   **Impact:** Monitorear la salud y rentabilidad de su negocio en tiempo real.
+    *   **Deliverable:** Panel de control analítico (Dashboard) en tiempo real.
+    *   **User Stories:** US03 (Visualizar Dashboard Financiero).
+3.  **Actor: Miguel (Jefe de Almacén/Operario)**
+    *   **Impact:** Registrar el ingreso de nueva mercadería en menos de 2 minutos sin papel.
+    *   **Deliverable:** Módulo de inventario con interfaz móvil ágil.
+    *   **User Stories:** US02 (Registrar Entrada de Inventario), US04 (Endpoint API).
+
+*(Placeholder: [Captura_UXPressia_ImpactMapping.jpg])*
+
+### 3.3. Product Backlog.
+
+Las historias han sido priorizadas en función al **valor para el negocio**, colocando en la cima el Landing Page (para captar clientes) y el Módulo Core de Inventario (para resolver el dolor principal). Estimaciones realizadas con Planning Poker (Fibonacci).
+
+**URL del Product Backlog (Trello):** *(Placeholder: [URL_Publico_Trello])*
+*(Placeholder: [Captura_Tablero_Backlog.jpg])*
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | US01 | Propuesta Landing Page | Como visitante MYPE, deseo visualizar la propuesta de valor... | 3 |
+| 2 | US02 | Registro de Inventario | Como operario, deseo registrar un nuevo artículo para mantener stock... | 5 |
+| 3 | US04 | API Endpoint - Inventario | Como developer, deseo contar con un endpoint POST para registrar artículos... | 3 |
+| 4 | US03 | Dashboard Rentabilidad | Como dueño, deseo ver un gráfico en tiempo real para tomar decisiones... | 5 |
+| 5 | US05 | Configuración Roles | Como admin, deseo asignar roles para proteger la confidencialidad... | 2 |
