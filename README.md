@@ -485,13 +485,13 @@ Como evidencia de nuestra investigación cualitativa, hemos consolidado las entr
 *   **Entrevista 3: Raúl Delgado**
     *   **Edad / Distrito:** 48 años / San Juan de Lurigancho
     *   **Enlace del video:** [https://drive.google.com/file/d/1f0I67_yf-Q2PPMHoIbk0-b8B4F1FAHAd/view?usp=sharing](https://drive.google.com/file/d/1f0I67_yf-Q2PPMHoIbk0-b8B4F1FAHAd/view?usp=sharing)
-    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Raul.jpg])*
+    *   **Captura de video:** <img src="Images/Entrevista-Raul-Delgado.png"></img><br>
     *   **Resumen descriptivo:** Raúl dirige su propia pollería desde hace ocho años, gestionando su operación casi exclusivamente a través de su celular. Su mayor dolor de cabeza es el control manual del inventario mediante cuadernos y memoria, un método que le hace perder horas semanales y le genera descuadres financieros. Tras haber descartado un software de POS por ser complejo, busca una solución económica, móvil y sencilla que le envíe alertas automáticas de reabastecimiento.
 
 *   **Entrevista 4: Carmen Soto**
     *   **Edad / Distrito:** 52 años / Los Olivos
     *   **Enlace del video:** [https://drive.google.com/file/d/1D22M_Bdm9QgKvZ8YXwEYe_2a9G290HcO/view?usp=sharing](https://drive.google.com/file/d/1D22M_Bdm9QgKvZ8YXwEYe_2a9G290HcO/view?usp=sharing)
-    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Carmen.jpg])*
+    *   **Captura de video:** <img src="Images/Entrevista-Carmen-Soto.png"></img><br>
     *   **Resumen descriptivo:** Carmen administra su minimarket desde hace quince años. Su mayor desafío es el control visual del inventario, lo que le genera frustración al rastrear fechas de vencimiento y quiebres de stock. Tras abandonar Excel por ser lento, busca una solución ágil que le permita usar la cámara de su teléfono para escanear códigos y monitorear su negocio a distancia.
 
 **Segmento 2: Usuarios Finales (Jefes de Logística, Operarios de Almacén)**
@@ -537,13 +537,15 @@ Con base en la información cualitativa extraída de las 7 entrevistas registrad
 *(Nota para el equipo: Las siguientes capturas fueron generadas en UXPressia).*
 
 *   **User Persona 1: Carlos Mendoza - El "Dueño Estresado" (Segmento 1)**
-    *   **Captura UXPressia:** *(Placeholder: [Captura_UXPressia_Carlos.jpg])*
+    *   **Captura UXPressia:**<br>
+    <img src="Images/User-Persona-1.png"></img><br>
     *   **Quote (Frase):** *"Necesito saber si gano o pierdo dinero sin tener que contar cada tomate del almacén."*
     *   **Gains:** Quiere visibilidad en tiempo real (Dashboard) y seguridad (Roles y Permisos).
     *   **Pains:** Descuadres a fin de mes, estrés por depender de reportes en Excel.
 
 *   **User Persona 2: Miguel Rojas - El "Almacenero Frustrado" (Segmento 2)**
-    *   **Captura UXPressia:** *(Placeholder: [Captura_UXPressia_Miguel.jpg])*
+    *   **Captura UXPressia:**<br>
+    <img src="Images/User-Persona-2.png"></img><br>
     *   **Quote (Frase):** *"Si registrar un ingreso fuera tan fácil como subir un TikTok, saldría temprano a casa."*
     *   **Gains:** Desea un sistema extremadamente simple y un buscador inteligente.
     *   **Pains:** Hacer inventario de madrugada, perder hojas de despacho.
@@ -565,13 +567,15 @@ Con base en la información cualitativa extraída de las 7 entrevistas registrad
 
 #### 2.3.3. User Journey Mapping.
 
-*(Placeholder para capturas de Journey Maps "As-Is" de Carlos y Miguel generadas en UXPressia)*.
 *   **Oportunidad Carlos:** Automatizar la consolidación de datos y ofrecer Dashboard.
+<img src="Images/User-Journey-Map-1.png"></img><br>
 *   **Oportunidad Miguel:** Reemplazar cuaderno por app móvil y buscador inteligente.
+<img src="Images/User-Journey-Map-2.png"></img><br>
 
 #### 2.3.4. Empathy Mapping.
 
-*(Placeholder para capturas de Empathy Maps de Carlos y Miguel generadas en UXPressia)*.
+<img src="Images/Empathy-Map-1.png"></img><br>
+<img src="Images/Empathy-Map-2.png"></img><br>
 
 ### 2.4. Big Picture EventStorming.
 
@@ -580,7 +584,7 @@ Con base en la información cualitativa extraída de las 7 entrevistas registrad
 *   **Fase Comercial:** `PurchaseOrderPlaced`, `InvoiceGenerated`.
 *   **Oportunidades:** El mayor cuello de botella ocurre porque la información del almacén no fluye en tiempo real hacia ventas. CeTe sincronizará estos eventos.
 
-*(Placeholder: [Captura_FigJam_Big_Picture_EventStorming.jpg])*
+<img src="Images/Big-Picure-Event-Storming.png"></img><br>
 
 ### 2.5. Ubiquitous Language.
 
