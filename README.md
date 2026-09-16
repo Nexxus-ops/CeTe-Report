@@ -797,8 +797,8 @@ En esta sección detallamos cómo los conceptos de DDD se traducen en código C#
 
 4.7.1. Class Diagrams.
 Los Diagramas de Clases UML mapean nuestras entidades backend.
-- Clase InventoryItem (Aggregate Root): Las propiedades de estado (ej. Id, Sku, Quantity) utilizan el modificador { get; private set; } en C# para evitar mutaciones externas directas. Expone métodos públicos como AddStock(int amount) o DecreaseStock(int amount) que validan las reglas lógicas internamente antes de cambiar la cantidad.
-<img src="Images/Class-Diagram.png"></img><br>
+- Clase InventoryItem (Aggregate Root): Las propiedades de estado (ej. Id, Sku, Quantity) utilizan el modificador { get; private set; } en C# para evitar mutaciones externas directas. Expone métodos públicos como AddStock(int amount) o DecreaseStock(int amount) que validan las reglas lógicas internamente antes de cambiar la cantidad.<br>
+<img src="Images/Class-Diagram.png" size = "200px"></img><br>
 
 4.8. Database Design.
 El diseño de nuestra base de datos relacional PostgreSQL, mapeada a través de **Entity Framework Core (C#),** respeta la separación de Bounded Contexts
