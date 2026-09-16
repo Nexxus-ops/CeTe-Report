@@ -628,7 +628,7 @@ Esta sección consolida la especificación de los requisitos de software que dar
     *   **Deliverable:** Módulo de inventario con interfaz móvil ágil.
     *   **User Stories:** US02 (Registrar Entrada de Inventario), US04 (Endpoint API).
 
-*(Placeholder: [Captura_UXPressia_ImpactMapping.jpg])*
+<img src="Images/Impact-Mapping-1.png"></img><br>
 
 ### 3.3. Product Backlog.
 
