@@ -699,15 +699,8 @@ Botones de confirmación precisos: "Aprobar Manifiesto".
 
 4.2.3. SEO Tags and Meta Tags
 
-<!-- Landing Page SEO Tags -->
-<title>CeTe | Gestión Logística Inteligente para MYPES</title>
-<meta name="description" content="CeTe centraliza inventario, facturación y ventas para PYMES y MYPES. Simplifica tu cadena de suministro con nuestra plataforma B2B SaaS.">
-<meta name="keywords" content="gestión de inventario, facturación electrónica MYPES, ERP para restaurantes, software logística Perú, CeTe">
-<meta name="author" content="Nexxus (Salazar Marquina, Kevin et al.)">
-
-<!-- Web Application App Tags -->
-<title>Dashboard | CeTe App</title>
-<meta name="robots" content="noindex, nofollow"> <!-- Evita indexar datos privados -->
+Para la optimización de motores de búsqueda (SEO) y accesibilidad de nuestro Landing Page, hemos configurado los siguientes metadatos, cumpliendo con los estándares de diseño inclusivo y buenas prácticas web:
+<img src="Images/SEO-Tags-and-Meta-Tags.png"></img><br>
 
 
 4.2.4. Searching Systems.
@@ -766,3 +759,52 @@ El happy path muestra una validación exitosa. El unhappy path detalla la detecc
 
 Prototipo navegable en Figma, configurando estados reactivos para brindar retroalimentación inmediata, simulando el comportamiento ágil de una SPA (Single Page Application).
 (Placeholder: [Captura_Prototipo_Figma.jpg])
+
+4.6. Domain-Driven Software Architecture.
+
+A partir del entendimiento general del negocio logrado en el Big Picture Event Storming, hemos profundizado en la arquitectura del software aplicando Domain-Driven Design (DDD). En esta sección presentamos la transición de los eventos de negocio hacia artefactos de software concretos y su representación estructural utilizando el Modelo C4. El diseño técnico subyacente se apoyará en un backend sólido desarrollado en C# con ASP.NET Core 8.
+
+4.6.1. Design-Level Event Storming.
+
+El equipo llevó a cabo una sesión de Design-Level Event Storming para refinar los eventos descubiertos y agruparlos lógicamente. Identificamos los Commands (acciones, notas azules) que disparan los eventos, los Aggregates (entidades de dominio, notas amarillas) que validan las reglas, y las Queries (notas verdes) necesarias para la UI. Definimos Bounded Contexts principales:
+
+- Warehouse Management (Core Domain): Control de stock y movimientos.
+- Sales & Billing: Administra transacciones comerciales.
+[Insertar imagen: Captura del tablero de Design-Level Event Storming]
+
+4.6.2. Software Architecture Context Diagram.
+
+El Diagrama de Contexto (Nivel 1 del Modelo C4) ilustra a CeTe en el centro de su entorno, interactuando con actores y sistemas externos.
+- Usuarios: Business Owner (dueño) y Warehouse Operator (almacenero).
+- Sistemas Externos: El sistema se integra con la SUNAT API (para la validación de facturas) y con un Email Gateway (para envío de alertas).
+<img src="Images/Context-Diagram.png"></img><br>
+
+4.6.3. Software Architecture Container Diagrams.
+El Diagrama de Contenedores (Nivel 2 del Modelo C4) descompone el sistema central en unidades de despliegue, reflejando nuestras decisiones tecnológicas:
+- Landing Page: Frontend estático (HTML5, CSS3, JS).
+- Single Page Application (Frontend Container): Desarrollada con Vue.js y PrimeVue. Se comunica asíncronamente vía JSON/HTTPS.
+- RESTful API Application (Backend Container): Desarrollada en C# con ASP.NET Core 8. Este contenedor expone los Endpoints y procesa la lógica de negocio orientada a dominio.
+- Database Container: Base de datos relacional (PostgreSQL) para persistir el estado del sistema.
+<img src="Images/Container-Diagram.png"></img><br>
+
+4.6.4. Software Architecture Components Diagrams.
+El Diagrama de Componentes (Nivel 3 del Modelo C4) hace un zoom dentro del contenedor del RESTful API (C#). El diagrama muestra cómo las peticiones HTTP entrantes son interceptadas por el SecurityMiddleware, canalizadas hacia un InventoryController (API endpoint), procesadas por el InventoryService (lógica de dominio) y persistidas utilizando InventoryRepository (apoyado en Entity Framework Core).
+<img src="Images/Component-Diagram.png"></img><br>
+
+**4.7. Software Object-Oriented Design.**
+
+En esta sección detallamos cómo los conceptos de DDD se traducen en código C#. El diseño orientado a objetos protege los invariantes encapsulando el estado y exponiendo solo métodos con significado de dominio.
+
+4.7.1. Class Diagrams.
+Los Diagramas de Clases UML mapean nuestras entidades backend.
+- Clase InventoryItem (Aggregate Root): Las propiedades de estado (ej. Id, Sku, Quantity) utilizan el modificador { get; private set; } en C# para evitar mutaciones externas directas. Expone métodos públicos como AddStock(int amount) o DecreaseStock(int amount) que validan las reglas lógicas internamente antes de cambiar la cantidad.
+<img src="Images/Class-Diagram.png"></img><br>
+
+4.8. Database Design.
+El diseño de nuestra base de datos relacional PostgreSQL, mapeada a través de **Entity Framework Core (C#),** respeta la separación de Bounded Contexts
+
+4.8.1. Database Diagrams.
+Los diagramas (ERD) muestran la estructura física:
+- Tabla InventoryItems: Llave primaria UUID, columnas para el código SKU y cantidades.
+- Tabla Transactions: Llave primaria, montos y timestamps. Las relaciones se mantienen optimizadas para soportar el esquema transaccional del negocio logístico.
+<img src="Images/Database-Diagram.png"></img><br>
