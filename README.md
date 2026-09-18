@@ -20,7 +20,7 @@ U202421123 - Anahua Ancachi, Liz Maribel
 
 U202414313 - Campoblanco Guzman, Diego Roberto
 
-U202XXXXXX - [Apellido], Piero (Por completar)
+u20241g031 - Montes Chang, Piero
 
 U202417747 - Salazar Marquina, Kevin Junior
 
@@ -99,7 +99,7 @@ AV1: Asumió el liderazgo en la redacción del modelo de negocio, estructurando 
 
 
 
-[Apellido], Piero
+u20241g031 - Montes Chang, Piero
 
 
 
