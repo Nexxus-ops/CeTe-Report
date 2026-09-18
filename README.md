@@ -808,16 +808,72 @@ El enfoque principal es la eficiencia del usuario operativo, minimizando la carg
 Se implementó un Sidebar colapsable y una amplia área central para maximizar el espacio útil en pantalla, vital para revisar listados de SKUs.
 (Placeholder: [Imagen_Wireframes_WebApp.jpg])
 
-4.4.2. Web Applications Wireflow Diagrams.
+## 4.4.2. Web Applications Wireflow Diagrams
 
-User Goal: Registrar un ingreso de mercadería.
-El flujo ilustra el paso a paso: clic en "Registrar Entrada", llenado de datos en el Modal (Dialog), y emisión de alerta de confirmación (Toast) con actualización dinámica de la tabla.
-(Placeholder: [Imagen_Wireflow_IngresoMercaderia.jpg])
+Los wireflows organizan la secuencia de pantallas que recorre el usuario para alcanzar un objetivo dentro de la aplicación web de CeTe. El registro de elaboración incluye estos artefactos, cuya revisión permite relacionar las acciones del usuario con los cambios representados en las interfaces.
 
-4.4.3. Web Applications Mock-ups.
+Entre los recorridos centrales de CeTe se consideran:
 
-Diseño limpio usando alertas de colores semánticos para reducir el estrés cognitivo del operario durante el uso prolongado.
-(Placeholder: [Imagen_Mockups_WebApp.jpg])
+| Wireflow | Usuario y objetivo | Secuencia funcional de referencia |
+|---|---|---|
+| W1 | Administrador o trabajador: registrar una entrada de inventario | Acceder al módulo Almacén → seleccionar “Registrar Entrada” → completar código SKU, descripción y cantidad → guardar entrada → visualizar inventario actualizado. |
+| W2 | Administrador: eliminar un producto | Acceder al módulo Almacén → consultar listado de artículos → seleccionar ícono de eliminar → revisar mensaje de confirmación → confirmar eliminación o cancelar → visualizar listado actualizado. |
+| W3 | Administrador o trabajador: consultar ventas | Acceder al menú lateral → seleccionar “Ventas” → visualizar módulo de ventas → consultar las funciones disponibles para registrar o revisar ventas. |
+| W4 | Administrador o trabajador: consultar despachos | Acceder al menú lateral → seleccionar “Despachos” → visualizar módulo de rutas y despachos → consultar las funciones disponibles para organizar y realizar seguimiento de las salidas. |
+| W5 | Administrador: consultar reportes | Acceder al menú lateral → seleccionar “Reportes” → visualizar módulo de balance e inteligencia → consultar información sobre compras, ventas y rentabilidad. |
+| W6 | Administrador o trabajador: revisar notificaciones | Acceder al dashboard de inventario → seleccionar ícono de notificaciones → visualizar panel de notificaciones → revisar alertas de stock y nuevas entradas registradas. |
+
+### W1. Registrar una entrada de inventario
+
+El usuario accede al módulo Almacén y selecciona la opción “Registrar Entrada”. Luego completa el código SKU, la descripción del producto y la cantidad a ingresar. Finalmente, guarda la entrada para actualizar el inventario.
+
+![Wireflow W1](w1.png)
+
+### W2. Eliminar un producto
+
+El administrador consulta el listado de artículos y selecciona el ícono de eliminar. El sistema muestra una ventana de confirmación para evitar eliminaciones accidentales. El usuario puede cancelar la acción o confirmar la eliminación.
+
+![Wireflow W2](w2.png)
+
+### W3. Consultar ventas
+
+El usuario selecciona la opción “Ventas” desde el menú lateral. El sistema muestra el módulo de ventas, donde se podrán consultar y gestionar las operaciones relacionadas con las ventas del negocio.
+
+![Wireflow W3](w3.png)
+
+### W4. Consultar despachos
+
+El usuario selecciona la opción “Despachos” desde el menú lateral. El sistema muestra el módulo de rutas y despachos, destinado a organizar las salidas y realizar el seguimiento de los productos.
+
+![Wireflow W4](w4.png)
+
+### W5. Consultar reportes
+
+El administrador selecciona la opción “Reportes” desde el menú lateral. El sistema muestra el módulo de balance e inteligencia, donde se podrá consultar información sobre las compras, ventas y rentabilidad del negocio.
+
+![Wireflow W5](w5.png)
+
+### W6. Revisar notificaciones
+
+El usuario accede al dashboard de inventario y selecciona el ícono de notificaciones. El sistema muestra alertas relacionadas con quiebres de stock y nuevas entradas registradas.
+
+![Wireflow W6](w6.png)
+
+Cada wireflow muestra las pantallas correspondientes, las acciones que conectan sus pasos y las variantes relevantes. La revisión permite comprobar que los cambios de estado se representen mediante una pantalla diferenciada, como la actualización del inventario después de registrar una entrada o la ventana de confirmación antes de eliminar un producto.
+
+Para su presentación académica, cada wireflow debe mostrar los wireframes correspondientes, las acciones que conectan sus pasos y las variantes relevantes. También se consideran los objetivos complementarios relacionados con la consulta de ventas, despachos, reportes y notificaciones.
+
+## 4.4.3. Web Applications Mock-ups
+
+Los mockups de CeTe presentan la propuesta visual de la aplicación web para la gestión de inventario. La interfaz incluye la landing page, el dashboard de almacén, los módulos de ventas, despachos y reportes, el registro de entradas, la confirmación de eliminación y el panel de notificaciones.
+
+El diseño utiliza un menú lateral de navegación, tarjetas de resumen, tablas de productos, botones de acción y alertas visuales. Los estados del inventario se diferencian como óptimo, alerta y quiebre de stock, lo que permite identificar rápidamente los productos que requieren atención.
+
+La siguiente imagen muestra el conjunto de mockups desarrollados para CeTe:
+
+![Mockups de la aplicación web CeTe](mockup_cete.png)
+
+Los mockups representan las principales interacciones del usuario dentro de la plataforma, incluyendo la consulta del inventario, el registro de una nueva entrada, la eliminación controlada de productos y la revisión de notificaciones.
 
 4.4.4. Web Applications User Flow Diagrams.
 
