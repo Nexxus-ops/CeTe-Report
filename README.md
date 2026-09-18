@@ -885,13 +885,29 @@ El despliegue de las aplicaciones (Landing Page, Frontend Web App y RESTful API)
 
 5.2.1.8. Team Collaboration Insights: (Placeholder para analíticas de GitHub)
 
-5.3. Validation Interviews.
+## 5.3. Validation Interviews.
 
-5.3.1. Diseño de entrevistas: Preparación de tareas a evaluar (Ej. Registrar un nuevo artículo).
+### 5.3.1. Diseño de entrevistas
+Para el proceso de validación, hemos diseñado sesiones interactivas donde los usuarios evalúan nuestros productos digitales de CeTe.
+* **Segmento 1 (Dueños/Gerentes):** Se evalúa la Landing Page en su versión Desktop, analizando la comprensión de la propuesta de valor y la intención de conversión.
+* **Segmento 2 (Operarios/Logística):** Se evaluará el prototipo de la Web Application (Módulo de Inventario), midiendo la facilidad de uso.
 
-5.3.2. Registro de Entrevistas: (Placeholder para videos y resúmenes de evaluación).
+### 5.3.2. Registro de Entrevistas
 
-5.3.3. Evaluaciones según heurísticas: Análisis de Usabilidad, Arquitectura de Información y Diseño Inclusivo (a11y).
+**Entrevista de Validación 1 (Segmento 1 - Dueño/Administrador)**
+* **Nombre:** Jesús V.C.
+* **Edad:** 28 años
+* **Distrito:** San Miguel
+* **URL del Video:** https://1drv.ms/v/c/e88873f5d7dca6f3/IQBGbGRWY2rUQ538hXef1EzLAdgfob7Mw59Zjm2DJZ55iCg?e=hPPCtx  
+* **Captura:** ![Captura Entrevista 1](entrevista1.jpg)
+* **Resumen de la evaluación:** El usuario interactuó con la Landing Page (index.html). Comprendió rápidamente que el sistema centraliza inventario, ventas y facturación. Destacó como funcionalidades más valiosas el "Balance Inteligente" (para cruzar compras y ventas) y el "Monitoreo y Alertas" (para evitar quiebres de stock). Se identificó plenamente con el dolor de no poder estar físicamente en el local todo el día, validando la necesidad del Dashboard. Como sugerencias críticas, indicó que la página carece de una sección de precios o planes y recomendó fuertemente implementar un botón flotante de WhatsApp para consultas rápidas antes de registrarse.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | La Landing Page no cuenta con una sección explícita de "Precios" o "Planes", lo que frena la decisión de registro del usuario. | 3 (Problema mayor) | Arquitectura de la Información: ¿Es usable / persuasivo? |
+| 2 | Ausencia de un canal de contacto rápido (botón de WhatsApp o soporte flotante) para resolver dudas antes de crear la cuenta. | 2 (Problema menor) | Usabilidad: Ayuda y documentación |
 
 5.4. Video About-the-Product.
 
