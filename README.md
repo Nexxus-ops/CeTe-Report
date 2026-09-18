@@ -507,6 +507,20 @@ También considera importantes las alertas de stock mínimo y un sistema de perm
     *   **Enlace del video:** [https://drive.google.com/file/d/1D22M_Bdm9QgKvZ8YXwEYe_2a9G290HcO/view?usp=sharing](https://drive.google.com/file/d/1D22M_Bdm9QgKvZ8YXwEYe_2a9G290HcO/view?usp=sharing)
     *   **Captura de video:** <img src="Images/Entrevista-Carmen-Soto.png"></img><br>
     *   **Resumen descriptivo:** Carmen administra su minimarket desde hace quince años. Su mayor desafío es el control visual del inventario, lo que le genera frustración al rastrear fechas de vencimiento y quiebres de stock. Tras abandonar Excel por ser lento, busca una solución ágil que le permita usar la cámara de su teléfono para escanear códigos y monitorear su negocio a distancia.
+      
+*   **Entrevista 5: Raúl Delgado**
+    *   **Edad / Distrito:** 48 años / San Juan de Lurigancho.
+    *   **Enlace del video:** [Ver entrevista de Raúl Delgado](https://drive.google.com/file/d/1f0I67_yf-Q2PPMHoIbk0-b8B4F1FAHAd/view?usp=sharing)
+    *   **Captura de video:**
+
+        ![Entrevista Raúl Delgado](Images/Entrevista-Raul-Delgado.png)
+
+    *   **Resumen descriptivo:** Raúl es un administrador de 48 años que dirige su propia pollería en San Juan de Lurigancho desde hace ocho años, gestionando su operación diaria y la comunicación con proveedores casi exclusivamente a través de su celular.
+
+        Su mayor dolor de cabeza es el control manual del inventario mediante cuadernos y memoria, un método que le hace perder hasta cinco horas semanales y le genera estrés, descuadres financieros por mermas no registradas y quiebres de stock en fechas de alta demanda.
+
+        Tras haber descartado un software de punto de venta por ser demasiado complejo y requerir mucho trabajo previo, busca una solución tecnológica económica, móvil y extremadamente sencilla que se enfoque en enviarle alertas automáticas de reabastecimiento a su teléfono antes de quedarse sin insumos críticos, permitiéndole tener control y tranquilidad cuando no está físicamente en el local. 
+      
 
 **Segmento 2: Usuarios Finales (Jefes de Logística, Operarios de Almacén)**
 
