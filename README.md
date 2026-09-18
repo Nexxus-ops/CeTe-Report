@@ -482,11 +482,25 @@ Como evidencia de nuestra investigación cualitativa, hemos consolidado las entr
     *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Lucia.jpg])*
     *   **Resumen descriptivo:** Lucía es soltera y fundadora de una MYPE textil. Pasa casi todo su día en su Smartphone (Android de gama alta) y utiliza mucho Instagram y WhatsApp Business para vender. Sigue a marcas como Zara (por su logística) y a diversos influencers emprendedores. Su mayor frustración (dolor) es que se le ha paralizado la producción varias veces porque olvidó comprar hilos o botones específicos, ya que el control lo lleva en un cuaderno. Expresó que aprender sistemas nuevos le asusta un poco, por lo que pide que la solución tenga botones muy claros y alertas de colores cuando falte mercadería.
 
-*   **Entrevista 3: Raúl Delgado**
-    *   **Edad / Distrito:** 48 años / San Juan de Lurigancho
-    *   **Enlace del video:** [https://drive.google.com/file/d/1f0I67_yf-Q2PPMHoIbk0-b8B4F1FAHAd/view?usp=sharing](https://drive.google.com/file/d/1f0I67_yf-Q2PPMHoIbk0-b8B4F1FAHAd/view?usp=sharing)
-    *   **Captura de video:** <img src="Images/Entrevista-Raul-Delgado.png"></img><br>
-    *   **Resumen descriptivo:** Raúl dirige su propia pollería desde hace ocho años, gestionando su operación casi exclusivamente a través de su celular. Su mayor dolor de cabeza es el control manual del inventario mediante cuadernos y memoria, un método que le hace perder horas semanales y le genera descuadres financieros. Tras haber descartado un software de POS por ser complejo, busca una solución económica, móvil y sencilla que le envíe alertas automáticas de reabastecimiento.
+### Entrevista 3: Diego Ramírez
+
+**Edad / Distrito:** 26 años / San Martín de Porres  
+**Timing del video:** 00:00 - 05:29 min  
+**Enlace del video:** [Ver entrevista de Diego Ramírez](https://youtu.be/xNGoNd6haxY)
+
+**Captura de video:**
+
+![Entrevista Diego Ramirez](Images/Entrevista_Diego%20Ramirez.jpg)
+
+**Resumen descriptivo:**
+
+Diego es dueño y administrador del restaurante familiar “Sabor Peruano”, ubicado en San Martín de Porres. Tiene cuatro años de experiencia administrando el negocio y se encarga de supervisar las compras, las ventas, los productos y la coordinación con los trabajadores.
+
+Actualmente controla el inventario mediante Excel, formatos de Google y apuntes en un cuaderno. Su principal problema es que algunas entradas y salidas no se registran a tiempo, lo que genera diferencias entre el inventario físico y la información digital, pérdidas por productos vencidos y compras innecesarias.
+
+Además, no puede revisar el estado actualizado del negocio desde su celular cuando se encuentra fuera del restaurante. Diego necesita una plataforma web sencilla y económica que le permita consultar las ventas del día, el stock disponible, los productos próximos a agotarse, las pérdidas y las ganancias.
+
+También considera importantes las alertas de stock mínimo y un sistema de permisos para que los trabajadores puedan registrar movimientos, pero no eliminar información sin autorización.    
 
 *   **Entrevista 4: Carmen Soto**
     *   **Edad / Distrito:** 52 años / Los Olivos
@@ -496,18 +510,38 @@ Como evidencia de nuestra investigación cualitativa, hemos consolidado las entr
 
 **Segmento 2: Usuarios Finales (Jefes de Logística, Operarios de Almacén)**
 
-*   **Entrevista 5: Miguel Rojas**
-    *   **Edad / Distrito:** 28 años / San Juan de Miraflores.
-    *   **Timing del video:** 12:46 - 16:20 min
-    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Miguel.jpg])*
-    *   **Resumen descriptivo:** Miguel vive con su pareja y es Jefe de Logística en una distribuidora. Es nativo digital, utiliza un Android y sus canales favoritos son TikTok y YouTube. Confesó que su mayor carga operativa es hacer el inventario de fin de mes; se queda hasta la madrugada contando cajas a mano porque los papeles de despacho se pierden. Pide que el sistema ideal le permita registrar salidas con la menor cantidad de clics posibles.
+*   **Entrevista 5: María Morales**
+    *   **Edad / Distrito:** 24 años / Ate, Lima.
+    *   **Timing del video:** 00:00 - 06:04 min
+    *   **Enlace del video:** [Ver entrevista de María Morales](https://www.youtube.com/watch?v=-meI6Cyn0IA)
+    *   **Captura de video:**
 
-*   **Entrevista 6: Andrea Gómez**
-    *   **Edad / Distrito:** 32 años / Chorrillos.
-    *   **Timing del video:** 16:21 - 20:00 min
-    *   **Captura de video:** *(Placeholder: [Imagen_Entrevista_Andrea.jpg])*
-    *   **Resumen descriptivo:** Andrea es operaria de almacén en una MYPE textil. Usa un teléfono Android y se comunica por WhatsApp y Facebook. Su frustración principal es el desorden físico y lógico: pierde tiempo buscando códigos de tela porque en Excel los nombres son confusos. Aceptaría probar el sistema si tiene un "buscador inteligente".
+        ![Entrevista María Morales](Images/Entrevista_Maria%20Morales.jpg)
 
+    *   **Resumen descriptivo:** María Morales tiene 24 años y trabaja como encargada de almacén y despachos en la distribuidora de productos alimenticios “Comercial Santa Rosa”, ubicada en Ate. Lleva dos años trabajando en el negocio y sus principales actividades son recibir productos, verificar las cantidades, ordenar la mercadería, preparar pedidos, apoyar en los inventarios y avisar cuando algún producto está por agotarse.
+
+        Actualmente, el registro de entradas y salidas se realiza primero en cuadernos u hojas y luego se pasa a Excel. Debido a la cantidad de pedidos y al trabajo de descarga y organización, algunas cantidades pueden registrarse tarde o de manera incorrecta. También se han presentado confusiones entre documentos de distintos clientes y dificultades para encontrar productos ubicados en diferentes estantes.
+
+        Su principal dificultad es realizar el inventario mensual y comparar las cantidades físicas con la información de Excel, ya que esta tarea puede requerir tiempo adicional después de terminar la jornada. Además, los productos dañados, vencidos o devueltos no siempre se registran inmediatamente.
+
+        María considera necesario contar con una aplicación sencilla para tablet o celular que permita registrar rápidamente las entradas y salidas, buscar productos por nombre o código, conocer su ubicación dentro del almacén y escanear códigos de barras para evitar errores. También solicita botones claros, pocos pasos y un sistema estable que permita trabajar a varios usuarios al mismo tiempo. Estaría dispuesta a utilizar la plataforma si recibe una explicación inicial sobre su funcionamiento.
+
+*   **Entrevista 6: Sebastián Ramírez**
+    *   **Edad / Distrito:** 22 años / La Victoria, Lima.
+    *   **Timing del video:** 00:00 - 06:18 min
+    *   **Enlace del video:** [Ver entrevista de Sebastián Ramírez](https://www.youtube.com/watch?v=AItYU4_ckvU)
+    *   **Captura de video:**
+
+        ![Entrevista Sebastián Ramírez](Images/Entrevista_%20Sebastian.jpg)
+
+    *   **Resumen descriptivo:** Sebastián Ramírez tiene 22 años y trabaja como vendedor y encargado de inventario en la tienda de ropa “Moda Urbana”, ubicada en La Victoria. Durante su jornada atiende a los clientes, revisa las prendas disponibles, ordena la ropa y registra las ventas y los productos que ingresan al negocio.
+
+        Actualmente, la tienda utiliza principalmente Excel, aunque cuando hay muchos clientes las ventas se anotan primero en un cuaderno o en una hoja para actualizarlas después. Esta situación genera diferencias entre el inventario registrado y las prendas disponibles, especialmente en las tallas y los colores.
+
+        Su principal dificultad es que puede aparecer una prenda en el archivo, pero no encontrarse físicamente en la tienda, lo que provoca confusiones y puede ocasionar la pérdida de ventas. También existen problemas al registrar cambios de talla y devoluciones, debido a que se actualizan posteriormente.
+
+        Sebastián considera útil una aplicación móvil con un buscador por modelo, talla y color, actualización automática del stock después de cada venta o cambio y alertas cuando queden pocas unidades. Además, señala que la plataforma debe tener botones claros y pocos pasos, porque los vendedores necesitan utilizarla rápidamente mientras atienden a los clientes.
+        
 *   **Entrevista 7: Jorge Quispe**
     *   **Edad / Distrito:** 41 años / Ate Vitarte.
     *   **Timing del video:** 20:01 - 24:15 min
