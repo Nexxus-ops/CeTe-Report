@@ -899,15 +899,15 @@ Para el proceso de validación, hemos diseñado sesiones interactivas donde los 
 * **Edad:** 28 años
 * **Distrito:** San Miguel
 * **URL del Video:** https://1drv.ms/v/c/e88873f5d7dca6f3/IQBGbGRWY2rUQ538hXef1EzLAdgfob7Mw59Zjm2DJZ55iCg?e=hPPCtx  
-* **Captura:** ![Captura Entrevista 1](entrevista1.jpg)
+* **Captura:** ![Captura Entrevista 1](jesusentrevistas.png)
 * **Resumen de la evaluación:** El usuario interactuó con la Landing Page (index.html). Comprendió rápidamente que el sistema centraliza inventario, ventas y facturación. Destacó como funcionalidades más valiosas el "Balance Inteligente" (para cruzar compras y ventas) y el "Monitoreo y Alertas" (para evitar quiebres de stock). Se identificó plenamente con el dolor de no poder estar físicamente en el local todo el día, validando la necesidad del Dashboard. Como sugerencias críticas, indicó que la página carece de una sección de precios o planes y recomendó fuertemente implementar un botón flotante de WhatsApp para consultas rápidas antes de registrarse.
 
 **Entrevista de Validación 2 (Segmento 2 - Operario de Almacén)**
-* **Nombre:** Luis [Escribe su apellido]
-* **Edad:** [Escribe su edad] años
-* **Distrito:** [Escribe su distrito]
+* **Nombre:** Luis Llanos
+* **Edad:** 28 años
+* **Distrito:** Santiago de Surco
 * **URL del Video:** https://1drv.ms/v/c/e88873f5d7dca6f3/IQBrUEoZT2CBRJ2rlCxRdA_zAfMIUn-hNsRdc9TrtVkJP1k?e=bM1yV4 
-* **Captura:** ![Captura Entrevista 2](entrevista2.jpg)
+* **Captura:** ![Captura Entrevista 2](guillermoentrevista.png)
 * **Resumen de la evaluación:** El usuario interactuó con los mockups de alta fidelidad en Figma. Identificó intuitivamente el menú lateral para la "Gestión de Inventario" y el botón para "Registrar Entrada". Al evaluar el formulario de ingreso, sugirió implementar una función para escanear códigos de barras con la cámara del celular, a fin de agilizar el proceso y evitar errores de tipeo al descargar cajas. Al analizar la pantalla de alertas, observó que falta un flujo o botón específico para registrar "Mermas" o productos dañados, lo cual es crítico para no alterar los reportes de ventas del dueño.
 
 ### 5.3.3. Evaluaciones según heurísticas
