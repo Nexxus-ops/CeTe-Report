@@ -1,252 +1,221 @@
-<div align="center">
+# Capítulo I: Introducción
 
-<br> <img src="assets/images/logo-upc.png" alt="Logo de la Universidad" width="300"> <br>
+## 1.1. Startup Profile
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+### 1.1.1. Descripción de la Startup
 
-### Facultad de Ingeniería
+Nuestra startup nace de la experiencia directa de sus fundadores lidiando con ineficiencias operativas en diferentes rubros comerciales. Habiendo trabajado desde el interior de negocios familiares de gastronomía, almacenes corporativos, empresas textiles recientes y consorcios de distribución de alimentos para el Estado, el equipo identificó un "dolor" compartido: la ausencia crítica de herramientas tecnológicas adaptadas a la realidad de las Micro y Pequeñas Empresas (MYPES).
 
-### Carrera de Ingeniería de Software
+Tradicionalmente, este sector gestiona su cadena de suministro mediante métodos empíricos (cuadernos, apuntes a mano) o archivos de Excel aislados, lo que desencadena en pérdida de tiempo, extravío de mercadería y falta de trazabilidad. Frente a esto, nuestra startup, Nexxus, se dedica a desarrollar soluciones de software B2B (Business-to-Business) ágiles y generalizables que democraticen la digitalización. Nuestro producto estrella, CeTe (Celer Tech), es el reflejo de esta visión.
 
-<br>
+> **Misión:** Democratizar el acceso a la tecnología para las MYPES latinoamericanas, proporcionando herramientas digitales intuitivas y centralizadas que optimicen su cadena de suministro y les permitan competir con mayor eficiencia en el mercado.
+>
+> **Visión:** Convertirnos en el aliado tecnológico líder (el "sistema nervioso central") de la logística y operaciones para pequeñas y medianas empresas, escalando nuestras plataformas hacia la integración con tecnologías avanzadas como el Internet de las Cosas (IoT).
+>
+> **Valores:**
+>* **Empatía:** Entendemos los problemas de nuestros usuarios porque los hemos vivido en carne propia.
+>* **Innovación adaptable:** Creamos soluciones que se amoldan a la realidad y tamaño de cada negocio, no al revés.
+>* **Transparencia:** Promovemos la claridad de la información tanto en el interior de nuestra startup como en las operaciones de nuestros clientes.
+>* **Eficiencia:** Buscamos hacer más con menos, eliminando los procesos repetitivos y manuales.
 
-### **8168**
+### 1.1.2. Perfiles de integrantes del equipo
 
-### **Aplicaciones Web**
+*[Placeholder: Fotos del equipo]*
 
-<br>
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+<thead>
+<tr style="background-color: #f2f2f2; text-align: center;">
+<th>Apellido y nombre</th>
+<th>Carrera</th>
+<th style="text-align: left;">Perfil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle">
+  <b>Anahua Ancachi, Liz Maribel</b><br>
+  <small>Código: U202420071</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>Estudiante con sólidos conocimientos en el desarrollo frontend y backend. Aporta al equipo habilidades en la implementación de arquitecturas orientadas a dominio (DDD).</td>
+</tr>
+<tr>
+<td align="center" valign="middle">
+  <b>Campoblanco Guzman, Diego Roberto</b><br>
+  <small>Código: U202414313</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>Actualmente estudio la carrera de Ingeniería de Software en la UPC. Soy una persona apasionada por la programación, enfocada en la creación de aplicaciones modulares y en la simulación de infraestructuras de red y dispositivos IoT. Busco garantizar que la integración del hardware se comunique de manera eficiente con las bases de datos y la plataforma web.</td>
+</tr>
+<tr>
+<td align="center" valign="middle">
+  <b>Montes Chang, Piero</b><br>
+  <small>Código: U202411324</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>[escriban algo pue]</td>
+</tr>
+<tr>
+<td align="center" valign="middle">
+  <b>Salazar Marquina, Kevin Junior</b><br>
+  <small>Código: U202417747</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>Estudiante con sólidos conocimientos en el desarrollo frontend y backend. Aporta al equipo habilidades en el uso de frameworks como Angular y Spring Boot, enfocado en asegurar la escalabilidad del sistema B2B.</td>
+</tr>
+<tr>
+<td align="center" valign="middle">
+  <b>Salazar Quiche, Darikson Bill</b><br>
+  <small>Código: U202422620</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>[escriban algo pue]</td>
+</tr>
+</tbody>
+</table>
 
-# **Informe del Trabajo Final**
+## 1.2. Solution Profile
 
-Docente
+### 1.2.1 Antecedentes y problemática
 
-### **Sánchez Ponce, Alex Humberto**
+Históricamente, las Micro y Pequeñas Empresas (MYPES) han administrado su logística mediante procesos rudimentarios, apoyándose en registros manuales o herramientas ofimáticas básicas sin integración. Esta falta de digitalización genera cuellos de botella críticos, tales como la pérdida de trazabilidad en los suministros, desajustes imprevistos en el stock y una visibilidad limitada sobre la rentabilidad real de sus transacciones comerciales.
 
-<br>
+En el panorama tecnológico actual, las alternativas de software robustas suelen ser inaccesibles para los pequeños empresarios, ya sea por sus elevadas tarifas de licenciamiento o por la complejidad técnica que exige su configuración. Se evidencia, así, una desconexión entre la urgencia de modernización de este sector y la oferta de mercado, que frecuentemente ignora las limitaciones financieras y la agilidad operativa propias de las MYPES.
 
-Equipo
+Con el propósito de profundizar en la naturaleza del problema identificado, hemos empleado la metodología de análisis **The 5 'W's y 2 'H's**:
 
-### **Nexxus**
+* **Who (¿Quién lo sufre?):** Propietarios, gestores administrativos y colaboradores operativos de MYPES que carecen de ecosistemas tecnológicos estandarizados para sus procesos.
+* **What (¿Cuál es el problema?):** Inexistencia de un entorno digital unificado para articular el inventario, las ventas y el despacho, resultando en una gestión basada en la empirismo o registros aislados.
+* **Where (¿Dónde ocurre?):** En el núcleo de las actividades empresariales diarias, particularmente dentro de los almacenes, centros de distribución y puntos críticos de venta.
+* **When (¿Cuándo ocurre?):** Se manifiesta durante el control de flujos de mercadería, en la conciliación de existencias y al intentar rastrear la trazabilidad de cada transacción comercial.
+* **Why (¿Por qué ocurre?):** Debido a que las soluciones ERP del mercado actual suelen ser financieramente prohibitivas, técnicamente complejas y poco flexibles ante la agilidad que requiere una pequeña empresa.
+* **How (¿Cómo se manifiesta?):** Mediante ineficiencias operativas, pérdida de trazabilidad de suministros, descuadres de stock imprevistos y una visibilidad limitada sobre la salud financiera real.
+* **How Much (¿Cuánto afecta?):** Provoca mermas económicas por falta de control, vencimientos no gestionados y un elevado costo de oportunidad por la excesiva carga de tareas manuales.
 
-Proyecto
+**Objetivo del producto:**
+Con el objetivo de cerrar esta brecha, surge CeTe como un ecosistema digital bajo la modalidad SaaS, enfocado en unificar y potenciar la cadena de valor. Nuestra herramienta permite articular los flujos de almacén, transacciones de venta y logística de entrega en un solo entorno, facilitando reportes financieros automáticos y notificaciones preventivas mediante una experiencia de usuario simplificada y adaptable.
 
-### **CeTe**
+### 1.2.2 Lean UX Process
 
-<br>
+#### 1.2.2.1. Lean UX Problem Statements
 
-## **INTEGRANTES**
+Aplicando la estructura sugerida por el marco de trabajo Lean UX (Brand new initiative), definimos el problema transversal para todos nuestros segmentos objetivo:
 
-| Código | Apellidos y Nombres |
-| :---: | :--- |
-| U202421123 | Anahua Ancachi, Liz Maribel |
-| U202414313 | Campoblanco Guzman, Diego Roberto |
-| U202411324 | Montes Chang, Piero |
-| U202417747 | Salazar Marquina, Kevin Junior |
-| U202422620 | Salazar Quiche, Darikson Bill |
+> **The current state of** the supply chain and warehouse management in diverse MSEs (restaurants, textile, food consortiums) **has focused mainly on** rudimentary manual methods like physical notebooks or isolated Excel sheets to record what is bought, what is delivered, and the quantities.
+>
+> **What existing products/services fail to address is** the need for an adaptable, generalized, and intuitive web template system that eliminates manual counting without requiring complex and expensive ERP setups.
+>
+> **Our product/service will address this gap by** offering "CeTe", an agile SaaS platform that acts as the central nervous system for businesses, unifying warehouse management, sales, and dispatch in one place.
+>
+> **Our initial focus will be** business owners and logistics managers in sectors suffering from manual chaos.
+>
+> **We'll know we are successful when we see** a daily adoption of the system replacing notebooks, a significant reduction in time spent searching for or counting merchandise, and clear visibility of goods' destinations.
 
-<br>
+#### 1.2.2.2. Lean UX Assumptions
 
-### **Período 202620**
+En base a la discusión del equipo, planteamos nuestras creencias fundamentales:
 
-### **Septiembre 2026**
+**Business Assumptions:**
+* Creemos que las MYPES necesitan urgentemente reemplazar los cuadernos y excels por una plataforma web centralizada.
+* Creemos que los dueños de negocios estarán dispuestos a pagar una suscripción SaaS accesible para dejar de perder mercadería y tiempo.
 
-</div>
+**Business Outcome Assumptions:**
+* Lograremos captar una base inicial sólida de suscripciones aprovechando la adaptabilidad de CeTe a múltiples rubros (Textil, Alimentos, Restaurantes).
+* El nivel de retención será alto porque una vez digitalizado el inventario, volver al cuaderno no es una opción viable.
 
-## Registro de Versiones del Informe
+**User Assumptions:**
+* Nuestros usuarios operativos (almaceneros, encargados) saben usar tecnología cotidiana pero necesitan sistemas con cero fricción, casi tan fáciles como usar una red social.
+* Los dueños de negocios sienten estrés por la falta de transparencia (no saber "a dónde se fue lo que compró").
 
-<div align="center">
-<div style="text-align: center;">
-    <table style="margin: 0 auto; display: inline-table; text-align: left;">
-        <tr>
-            <th>Versión</th>
-            <th>Fecha</th>
-            <th>Autor</th>
-            <th>Descripción de modificación</th>
-        </tr>
-        <tr>
-            <td><strong>1.0</strong></td>
-            <td>28/08/2026</td>
-            <td>- Anahua Ancachi, Liz Maribel<br>- Campoblanco Guzman, Diego Roberto<br>- Montes Chang, Piero<br>- Salazar Marquina, Kevin Junior<br>- Salazar Quiche, Darikson Bill</td>
-            <td>Estructuración inicial del repositorio de documentación. Redacción del <strong>Capítulo I</strong> (Startup Profile, Antecedentes) y <strong>Capítulo II</strong> (Requirements Elicitation, Diseño y Registro de Entrevistas, Needfinding).</td>
-        </tr>
-        <tr>
-            <td><strong>1.1</strong></td>
-            <td>06/09/2026</td>
-            <td>- Anahua Ancachi, Liz Maribel<br>- Campoblanco Guzman, Diego Roberto<br>- Montes Chang, Piero<br>- Salazar Marquina, Kevin Junior<br>- Salazar Quiche, Darikson Bill</td>
-            <td>Desarrollo del <strong>Capítulo III</strong> (Requirements Specification, Product Backlog, Impact Mapping). Integración del <strong>Capítulo IV</strong> (Product Design, Mockups UI/UX, Diagramas de Arquitectura C4 y Base de Datos).</td>
-        </tr>
-        <tr>
-            <td><strong>AV1 (1.2)</strong></td>
-            <td>16/09/2026</td>
-            <td>- Anahua Ancachi, Liz Maribel<br>- Campoblanco Guzman, Diego Roberto<br>- Montes Chang, Piero<br>- Salazar Marquina, Kevin Junior<br>- Salazar Quiche, Darikson Bill</td>
-            <td>Desarrollo del <strong>Capítulo V</strong> (Product Implementation & Validation). Despliegue de la Landing Page v1.0.0 (Sprint 1), adición de Student Outcome ABET, correcciones ortográficas y consolidación de la primera entrega (AV1).</td>
-        </tr>
-        <tr>
-            <td><strong>TB1</strong></td>
-            <td>Por definir</td>
-            <td>- Anahua Ancachi, Liz Maribel<br>- Campoblanco Guzman, Diego Roberto<br>- Montes Chang, Piero<br>- Salazar Marquina, Kevin Junior<br>- Salazar Quiche, Darikson Bill</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><strong>AV2</strong></td>
-            <td>Por definir</td>
-            <td>- Anahua Ancachi, Liz Maribel<br>- Campoblanco Guzman, Diego Roberto<br>- Montes Chang, Piero<br>- Salazar Marquina, Kevin Junior<br>- Salazar Quiche, Darikson Bill</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><strong>TB2</strong></td>
-            <td>Por definir</td>
-            <td>- Anahua Ancachi, Liz Maribel<br>- Campoblanco Guzman, Diego Roberto<br>- Montes Chang, Piero<br>- Salazar Marquina, Kevin Junior<br>- Salazar Quiche, Darikson Bill</td>
-            <td></td>
-        </tr>
-    </table>
-</div>
-</div>
+**User Outcome and Benefit Assumptions:**
+* Los operarios ahorrarán horas a la semana al no tener que buscar productos físicamente a ciegas o contar manualmente.
+* Los dueños tendrán la tranquilidad de saber exactamente su estado logístico y financiero en tiempo real.
 
-# Project Report Collaboration Insights
+**Feature Assumptions:**
+* Creemos que un módulo ágil de ingresos y salidas reducirá los errores de tipeo o escritura manual.
+* Creemos que un panel de control (Dashboard) generalizable permitirá a cualquier rubro ver sus métricas vitales fácilmente.
 
-En esta versión del trabajo se realizaron los capítulos I a IV en su totalidad, a la vez que se avanzó el capítulo V hasta el punto 5.2 como dispone la rúbrica para el primer entregable.
-Durante esta primera etapa (AV1), todos los miembros del equipo han colaborado en la redacción de los capítulos iniciales utilizando la sintaxis Markdown, aplicando flujos de trabajo basados en branches (ramas) para la redacción de cada sección y realizando Pull Requests para su revisión antes de la integración a la rama principal (main).
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
-Link de la organización (GitHub): https://github.com/Nexxus-ops
+Para validar nuestros Feature Assumptions, planteamos las siguientes hipótesis:
 
-Collaboration Insight (Landing Page Repository):
-<br> <img src="assets/images/commits-landing.jpeg" alt="First-Commit" width="300"> <br>
+* **Hypothesis 1:**
+    * **We believe we will achieve** a massive reduction in time lost searching and counting inventory
+    * **If** warehouse and logistics staff
+    * **Attain** the ability to record entries and dispatches digitally in seconds, abandoning notebooks
+    * **With** a centralized, highly intuitive inbound/outbound module.
 
-## **AV1:**
+* **Hypothesis 2:**
+    * **We believe we will achieve** high trust and subscription retention from business owners
+    * **If** SME owners and managers
+    * **Attain** the peace of mind of knowing exactly where their merchandise is and if they are making a profit
+    * **With** a real-time dashboard acting as the central nervous system of their business.
 
-Durante este avance del trabajo, se desarrollaron los siguientes puntos del reporte para CeTe:
+#### 1.2.2.4. Lean UX Canvas
 
-- Carátula e información esencial
-- Registro de versiones y Project Report Collaboration Insights
-- **Capítulo I: Introducción**
-- **Capítulo II: Requirements Elicitation & Analysis**
-- **Capítulo III: Requirements Specification**
-- **Capítulo IV: Product Design**
-- **Capítulo V: Product Implementation, Validation & Deployment (Sprint 1)**
-- Conclusiones y Anexos
+**1. Business Problem (Problema de Negocio)**
+* ¿Qué problema tiene el negocio?
+    * Las MYPES (restaurantes, textiles, consorcios) sufren pérdidas económicas y de tiempo porque gestionan su logística y almacén con métodos manuales (cuadernos, Excel aislados).
+    * Los ERPs actuales son muy costosos, complejos y las MYPES no pueden adoptarlos.
 
-Collaboration Insight (Project Report Repository):
-<br> <img src="assets/images/commits-report.jpeg" alt="Second-Commit" width="300"> <br>
+**2. Business Outcomes (Resultados de Negocio)**
+* ¿Qué cambios en el comportamiento del cliente indicarán que hemos resuelto el problema?
+    * Reducción del 50% del tiempo semanal que las MYPES gastan cuadrando inventario.
+    * Adopción diaria del sistema por parte del personal operativo (abandono total del papel).
+    * Lograr 30 suscripciones SaaS activas en los primeros 6 meses.
 
-## Commits por integrante
+**3. Users / Customers (Usuarios y Clientes)**
+* ¿A quiénes estamos resolviendo el problema?
+    * Segmento 1 (El Comprador): Dueños y Administradores de negocio (Restaurantes, Textiles, Consorcios) que buscan control y rentabilidad.
+    * Segmento 2 (El Usuario): Operarios de almacén y Jefes de Logística que manejan el inventario físico diario.
 
-- **Anahua Ancachi, Liz Maribel (`USER GITHUB`)**: [XX] commits
-- **Campoblanco Guzman, Diego Roberto (`USER GITHUB`)**: [XX] commits
-- **Montes Chang, Piero (`USER GITHUB`)**: [XX] commits
-- **Salazar Marquina, Kevin Junior (`USER GITHUB`)**: [XX] commits
-- **Salazar Quiche, Darikson Bill (`USER GITHUB`)**: [XX] commits
-- **Total de commits en AV1:** [XXX]
+**4. User Outcomes & Benefits (Beneficios del Usuario)**
+* ¿Qué quieren lograr los usuarios? ¿Cuál es su beneficio?
+    * Dueños: Quieren tranquilidad mental y saber el estado financiero y logístico de su negocio en tiempo real, desde cualquier lugar, sin sufrir estrés por descuadres.
+    * Operarios: Quieren ahorrar horas de trabajo repetitivo, evitar perder el tiempo buscando productos físicamente y terminar su jornada a la hora indicada.
 
-La colaboración del equipo al realizar el primer avance del proyecto fue activa, logrando un liderazgo compartido donde cada integrante ejecutó una parte crucial de la investigación y del diseño técnico de la plataforma.
+**5. Solutions (Soluciones / Ideas)**
+* ¿Qué podemos construir para solucionar los problemas?
+    * CeTe SaaS: Una plataforma web que funciona como una "plantilla" logística adaptable.
+    * Un Módulo de Ingresos/Salidas ultra intuitivo (cero fricción) para celular/PC en el almacén.
+    * Un Dashboard Gerencial en tiempo real con alertas de stock mínimo.
+    * Sistema de Roles y Permisos para proteger la información (Vendedor, Almacenero, Admin).
 
----
+**6. Hypotheses (Hipótesis)**
+* ¿Cómo combinamos lo anterior en afirmaciones para validar?
+    * Creemos que los dueños confiarán más en su negocio si obtienen un Dashboard en tiempo real mediante CeTe.
+    * Creemos que los operarios ahorrarán horas de trabajo si logran registrar ingresos/salidas en segundos mediante nuestro módulo ágil, abandonando los cuadernos.
 
-Repositorio de GitHub (Reporte): [Proyecto CeTe](https://github.com/Nexxus-ops/CeTe-Report)
+**7. What's the most important thing we need to learn first? (Supuesto más riesgoso)**
+* ¿Cuál es la hipótesis más importante que debemos probar primero?
+    * ¿Estarán los operarios de almacén (acostumbrados al papel durante años) dispuestos a usar un sistema web en su día a día sin frustrarse?
+    * ¿Están los dueños de las MYPES dispuestos a pagar una suscripción mensual por ordenar su logística?
 
-<div style="page-break-after: always;"></div>
+**8. What's the least amount of work we need to do to learn the next most important thing? (MVP / Experimentos)**
+* ¿Cuál es el mínimo esfuerzo para probar nuestro supuesto más riesgoso?
+    * Crear un Landing Page con los planes de pago para medir la intención de compra (conversión).
+    * Desarrollar un Prototipo interactivo (Figma) del módulo de ingreso rápido de mercadería y testearlo directamente con operarios de almacén para ver si les parece más fácil que usar un cuaderno.
 
-## Contenido
-**Tabla de Contenidos:**
+*(Pendiente: Insertar diagrama visual del Lean UX Canvas exportado como imagen)*
 
-- [Carátula](#universidad-peruana-de-ciencias-aplicadas)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#abet---eac---student-outcome-5)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture Event Storming](#24-big-picture-eventstorming)
-    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. User Stories](#31-user-stories)
-    - [3.2. Impact Mapping](#32-impact-mapping)
-    - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-        - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Design-Level Event Storming](#461-design-level-eventstorming)
-        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-level-diagram)
-        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-level-diagrams)
-        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-component-level-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-- [Conclusiones](#conclusiones)
-    - [Conclusiones y recomendaciones](#conclusiones)
+## 1.3. Segmentos objetivo
 
----
+Para el desarrollo de CeTe bajo el modelo B2B SaaS, nos enfocaremos en dos segmentos de usuarios clave, validando que nuestra "plantilla web" cubre tanto las necesidades de control gerencial como la agilidad operativa que requieren rubros como gastronomía, textil y consorcios de alimentos.
 
-# ABET - EAC - Student Outcome 5
+### 1.3.1. Segmento 1: Dueños y Administradores de Negocio (El Comprador)
 
-**Criterio:** _La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos._
+Representan al sector gerencial y administrativo de la MYPE (los fundadores de la marca textil, los dueños de la cadena de restaurantes, los gerentes del consorcio). Son los tomadores de decisiones que adquieren el software buscando rentabilidad y orden. Su principal dolor es la incertidumbre de no saber con exactitud dónde está su mercadería, si realmente se compró lo que se debía, y el estrés de depender de cuadernos informales para conocer el estado de su empresa.
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+* **Características demográficas:** Hombres y mujeres entre 30 y 55 años de edad. Residentes en zonas urbanas. Emprendedores y empresarios de nivel socioeconómico B y C.
+* **Nivel de digitalización:** Medio. Utilizan smartphones constantemente para comunicarse y vender (redes, WhatsApp), pero para la gestión interna siguen dependiendo de que sus empleados les pasen reportes físicos o archivos básicos.
+* **Información estadística de sustento:** Según el Ministerio de la Producción y el INEI (2024), las micro y pequeñas empresas representan el 99.5% del tejido empresarial peruano. Sin embargo, el Sondeo de Adopción Digital de Movistar Empresas señala que la mayoría aún gestiona su logística de forma tradicional. El mismo sondeo demuestra que el 27% de las MIPYMES que logran adoptar herramientas digitales orientadas a la gestión y automatización aumentan inmediatamente sus ventas y reducen mermas.
 
-<div align="center">
+### 1.3.2. Segmento 2: Jefes de Logística y Personal Operativo de Almacén (El Usuario Final)
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Anahua Ancachi, Liz Maribel**<br>AV1: Lideró la definición de los User Personas y el diseño inicial (UI) basado en el rubro textil.<br>TB1:<br>AV2:<br>TB2:<br><br>**Campoblanco Guzman, Diego Roberto**<br>AV1: Moderó las sesiones de EventStorming y mapeo de procesos logísticos.<br>TB1:<br>AV2:<br>TB2:<br><br>**Montes Chang, Piero**<br>AV1: Lideró la organización de las entrevistas orientadas al segmento de dueños de restaurantes.<br>TB1:<br>AV2:<br>TB2:<br><br>**Salazar Marquina, Kevin Junior**<br>AV1: Asumió el liderazgo en la redacción del modelo de negocio, estructurando los antecedentes.<br>TB1:<br>AV2:<br>TB2:<br><br>**Salazar Quiche, Darikson Bill**<br>AV1: Encargado de la configuración inicial de los repositorios GitFlow.<br>TB1:<br>AV2:<br>TB2: | El equipo demostró un liderazgo distribuido eficaz, donde cada integrante asumió la responsabilidad de áreas clave (diseño UI, arquitectura de software, metodologías ágiles) según sus fortalezas. Esto agilizó significativamente la toma de decisiones, ya que los líderes de cada aspecto guiaron a sus compañeros mediante reuniones eficaces, reduciendo cuellos de botella en la fase de planeación y diseño.<br><br>*(Por definir para TB1)*<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Anahua Ancachi, Liz Maribel**<br>AV1: Participó en la utilización de Trello para asignar tareas del Sprint 1, integrando el diseño iterativo en Figma con el equipo.<br>TB1:<br>AV2:<br>TB2:<br><br>**Campoblanco Guzman, Diego Roberto**<br>AV1: Colaboró en la definición de metas para el flujo de trabajo y mapeo de tareas, asegurando un entorno colaborativo en las sesiones.<br>TB1:<br>AV2:<br>TB2:<br><br>**Montes Chang, Piero**<br>AV1: Contribuyó a la planificación de entrevistas y recolección de requerimientos, garantizando que todos los aportes fueran escuchados.<br>TB1:<br>AV2:<br>TB2:<br><br>**Salazar Marquina, Kevin Junior**<br>AV1: Colaboró en la redacción conjunta y revisión del informe, promoviendo la integración continua en GitHub mediante ramas feature/.<br>TB1:<br>AV2:<br>TB2:<br><br>**Salazar Quiche, Darikson Bill**<br>AV1: Planificó las tareas técnicas iniciales y administró el uso de GitHub para el control de versiones del Landing Page y el Informe.<br>TB1:<br>AV2:<br>TB2: | La aplicación estricta de metodologías ágiles (Scrum) y herramientas tecnológicas (Trello, GitHub, Figma) permitió crear un entorno de trabajo altamente transparente e inclusivo. El equipo logró planificar Sprints con cargas de trabajo realistas, cumplir con el Sprint Goal a tiempo y gestionar integraciones continuas, demostrando madurez en el respeto por las ideas, el código y los tiempos de cada miembro.<br><br>*(Por definir para TB1)*<br><br>*(Por definir para AV2)*<br><br>*(Por definir para TB2)* |
+Representan a la fuerza laboral que interactúa diariamente con el inventario, las compras y los despachos. Suelen ser los encargados de los almacenes del consorcio, los jefes de cocina o los operarios textiles. Su principal dolor es la sobrecarga de trabajo manual (apuntar todo en papel), perder tiempo buscando productos que no saben dónde se ubicaron, y la frustración de tener que hacer conteos manuales tediosos a fin de mes.
+
+* **Características demográficas:** Hombres y mujeres jóvenes y adultos jóvenes, de entre 20 y 45 años. Tienen estudios técnicos, secundarios o universitarios en curso.
+* **Nivel de digitalización:** Medio (en el ámbito de software empresarial). Son usuarios activos de aplicaciones móviles comerciales, pero en su entorno de trabajo carecen de sistemas ágiles. Requieren herramientas extremadamente intuitivas que faciliten su trabajo, no que lo compliquen.
+* **Información estadística de sustento:** La falta de digitalización operativa en sectores de distribución y manufactura genera cuellos de botella severos. La ausencia de un software unificado es la causa principal de horas-hombre desperdiciadas en cuadres de inventario (ComexPerú, 2024), lo que afecta directamente la productividad del personal operativo en las MYPES peruanas.
 
 </div>
-
-<div class="page"></div>
