@@ -827,41 +827,39 @@ Entre los recorridos centrales de CeTe se consideran:
 
 El usuario accede al módulo Almacén y selecciona la opción “Registrar Entrada”. Luego completa el código SKU, la descripción del producto y la cantidad a ingresar. Finalmente, guarda la entrada para actualizar el inventario.
 
-![Wireflow W1](w1.png)
+![Wireflow W1](Images/w1.jpg)
 
 ### W2. Eliminar un producto
 
 El administrador consulta el listado de artículos y selecciona el ícono de eliminar. El sistema muestra una ventana de confirmación para evitar eliminaciones accidentales. El usuario puede cancelar la acción o confirmar la eliminación.
 
-![Wireflow W2](w2.png)
+![Wireflow W2](Images/w2.jpg)
 
 ### W3. Consultar ventas
 
 El usuario selecciona la opción “Ventas” desde el menú lateral. El sistema muestra el módulo de ventas, donde se podrán consultar y gestionar las operaciones relacionadas con las ventas del negocio.
 
-![Wireflow W3](w3.png)
+![Wireflow W3](Images/w3.jpg)
 
 ### W4. Consultar despachos
 
 El usuario selecciona la opción “Despachos” desde el menú lateral. El sistema muestra el módulo de rutas y despachos, destinado a organizar las salidas y realizar el seguimiento de los productos.
 
-![Wireflow W4](w4.png)
+![Wireflow W4](Images/w4.jpg)
 
 ### W5. Consultar reportes
 
 El administrador selecciona la opción “Reportes” desde el menú lateral. El sistema muestra el módulo de balance e inteligencia, donde se podrá consultar información sobre las compras, ventas y rentabilidad del negocio.
 
-![Wireflow W5](w5.png)
+![Wireflow W5](Images/w5.jpg)
 
 ### W6. Revisar notificaciones
 
 El usuario accede al dashboard de inventario y selecciona el ícono de notificaciones. El sistema muestra alertas relacionadas con quiebres de stock y nuevas entradas registradas.
 
-![Wireflow W6](w6.png)
+![Wireflow W6](Images/w6.jpg)
 
 Cada wireflow muestra las pantallas correspondientes, las acciones que conectan sus pasos y las variantes relevantes. La revisión permite comprobar que los cambios de estado se representen mediante una pantalla diferenciada, como la actualización del inventario después de registrar una entrada o la ventana de confirmación antes de eliminar un producto.
-
-Para su presentación académica, cada wireflow debe mostrar los wireframes correspondientes, las acciones que conectan sus pasos y las variantes relevantes. También se consideran los objetivos complementarios relacionados con la consulta de ventas, despachos, reportes y notificaciones.
 
 ## 4.4.3. Web Applications Mock-ups
 
@@ -871,7 +869,7 @@ El diseño utiliza un menú lateral de navegación, tarjetas de resumen, tablas 
 
 La siguiente imagen muestra el conjunto de mockups desarrollados para CeTe:
 
-![Mockups de la aplicación web CeTe](mockup_cete.png)
+![Mockups de la aplicación web CeTe](Images/mockup_cete.jpg)
 
 Los mockups representan las principales interacciones del usuario dentro de la plataforma, incluyendo la consulta del inventario, el registro de una nueva entrada, la eliminación controlada de productos y la revisión de notificaciones.
 
