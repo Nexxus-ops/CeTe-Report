@@ -902,12 +902,22 @@ Para el proceso de validación, hemos diseñado sesiones interactivas donde los 
 * **Captura:** ![Captura Entrevista 1](entrevista1.jpg)
 * **Resumen de la evaluación:** El usuario interactuó con la Landing Page (index.html). Comprendió rápidamente que el sistema centraliza inventario, ventas y facturación. Destacó como funcionalidades más valiosas el "Balance Inteligente" (para cruzar compras y ventas) y el "Monitoreo y Alertas" (para evitar quiebres de stock). Se identificó plenamente con el dolor de no poder estar físicamente en el local todo el día, validando la necesidad del Dashboard. Como sugerencias críticas, indicó que la página carece de una sección de precios o planes y recomendó fuertemente implementar un botón flotante de WhatsApp para consultas rápidas antes de registrarse.
 
+**Entrevista de Validación 2 (Segmento 2 - Operario de Almacén)**
+* **Nombre:** Luis [Escribe su apellido]
+* **Edad:** [Escribe su edad] años
+* **Distrito:** [Escribe su distrito]
+* **URL del Video:** https://1drv.ms/v/c/e88873f5d7dca6f3/IQBrUEoZT2CBRJ2rlCxRdA_zAfMIUn-hNsRdc9TrtVkJP1k?e=bM1yV4 
+* **Captura:** ![Captura Entrevista 2](entrevista2.jpg)
+* **Resumen de la evaluación:** El usuario interactuó con los mockups de alta fidelidad en Figma. Identificó intuitivamente el menú lateral para la "Gestión de Inventario" y el botón para "Registrar Entrada". Al evaluar el formulario de ingreso, sugirió implementar una función para escanear códigos de barras con la cámara del celular, a fin de agilizar el proceso y evitar errores de tipeo al descargar cajas. Al analizar la pantalla de alertas, observó que falta un flujo o botón específico para registrar "Mermas" o productos dañados, lo cual es crítico para no alterar los reportes de ventas del dueño.
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 | # | Problema | Escala de severidad | Heurística/Principio violado |
 |---|---|---|---|
 | 1 | La Landing Page no cuenta con una sección explícita de "Precios" o "Planes", lo que frena la decisión de registro del usuario. | 3 (Problema mayor) | Arquitectura de la Información: ¿Es usable / persuasivo? |
-| 2 | Ausencia de un canal de contacto rápido (botón de WhatsApp o soporte flotante) para resolver dudas antes de crear la cuenta. | 2 (Problema menor) | Usabilidad: Ayuda y documentación |
+| 2 | Ausencia de un canal de contacto rápido (botón de WhatsApp o soporte flotante) para resolver dudas en la Landing Page. | 2 (Problema menor) | Usabilidad: Ayuda y documentación |
+| 3 | El formulario de ingreso de mercadería requiere tipear el SKU a mano, lo que aumenta el riesgo de error humano y demora el proceso. | 3 (Problema mayor) | Usabilidad: Flexibilidad y eficiencia de uso |
+| 4 | No existe un botón o flujo específico y claro para registrar productos dañados (Mermas) desde la vista del operario. | 3 (Problema mayor) | Usabilidad: Prevención de errores |
 
 5.4. Video About-the-Product.
 
