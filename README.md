@@ -719,81 +719,85 @@ Side Navigation Drawer (Web App): Menú lateral izquierdo colapsable para maximi
 
 4.3. Landing Page UI Design.
 
-4.3.1. Landing Page Wireframe.
+### 4.3.1. Landing Page Wireframe
 
 Nuestros wireframes priorizan la heurística de "Diseño estético y minimalista". El Hero Section contiene una propuesta de valor clara y la estructura modular se adapta fácilmente a Mobile.
+
+### Wireframes Desktop de la Landing Page
+
 **Landing Wireframe Desktop 1**
 
-![Landing Wireframe Desktop 1](Images/Landing%20Wireframe%20Desktop/1.jpg)
+![Landing Wireframe Desktop 1](<Landing Wireframe Desktop/1.jpg>)
 
 **Landing Wireframe Desktop 2**
 
-![Landing Wireframe Desktop 2](Images/Landing%20Wireframe%20Desktop/2.png)
+![Landing Wireframe Desktop 2](<Landing Wireframe Desktop/2.png>)
 
 **Landing Wireframe Desktop 3**
 
-![Landing Wireframe Desktop 3](Images/Landing%20Wireframe%20Desktop/3.png)
+![Landing Wireframe Desktop 3](<Landing Wireframe Desktop/3.png>)
 
 **Landing Wireframe Desktop 4**
 
-![Landing Wireframe Desktop 4](Images/Landing%20Wireframe%20Desktop/4.png)
+![Landing Wireframe Desktop 4](<Landing Wireframe Desktop/4.png>)
 
 ### Wireframes Mobile de la Landing Page
 
 **Landing Wireframe Mobile 1**
 
-![Landing Wireframe Mobile 1](Images/Landing%20Wireframe%20Mobile/1_movil.png)
+![Landing Wireframe Mobile 1](<Landing Wireframe Mobile/1_movil.png>)
 
 **Landing Wireframe Mobile 2**
 
-![Landing Wireframe Mobile 2](Images/Landing%20Wireframe%20Mobile/2_movil.png)
+![Landing Wireframe Mobile 2](<Landing Wireframe Mobile/2_movil.png>)
 
 **Landing Wireframe Mobile 3**
 
-![Landing Wireframe Mobile 3](Images/Landing%20Wireframe%20Mobile/3_movil.png)
+![Landing Wireframe Mobile 3](<Landing Wireframe Mobile/3_movil.png>)
 
 **Landing Wireframe Mobile 4**
 
-![Landing Wireframe Mobile 4](Images/Landing%20Wireframe%20Mobile/4_movil.png)
+![Landing Wireframe Mobile 4](<Landing Wireframe Mobile/4_movil.png>)
 
-4.3.2. Landing Page Mock-up.
+### 4.3.2. Landing Page Mock-up
 
-Mock-ups de alta fidelidad aplicando nuestro Design System. Uso de botones .btn-primary (Naranja) sobre fondos oscuros o claros, cumpliendo estándares de contraste WCAG.
+Mock-ups de alta fidelidad aplicando nuestro Design System. Uso de botones `.btn-primary` (naranja) sobre fondos oscuros o claros, cumpliendo estándares de contraste WCAG.
+
 ### Mockups Desktop de la Landing Page
 
 **Landing Mockup Desktop 1**
 
-![Landing Mockup Desktop 1](Images/Landing%20Mockup%20Desktop/1_mouck_pc.png)
+![Landing Mockup Desktop 1](<Landing Mockup Desktop/1_mouck_pc.png>)
 
 **Landing Mockup Desktop 2**
 
-![Landing Mockup Desktop 2](Images/Landing%20Mockup%20Desktop/2_mouck_pc.png)
+![Landing Mockup Desktop 2](<Landing Mockup Desktop/2_mouck_pc.png>)
 
 **Landing Mockup Desktop 3**
 
-![Landing Mockup Desktop 3](Images/Landing%20Mockup%20Desktop/3_mouck_pc.png)
+![Landing Mockup Desktop 3](<Landing Mockup Desktop/3_mouck_pc.png>)
 
 **Landing Mockup Desktop 4**
 
-![Landing Mockup Desktop 4](Images/Landing%20Mockup%20Desktop/4_mouck_pc.png)
+![Landing Mockup Desktop 4](<Landing Mockup Desktop/4_mouck_pc.png>)
 
 ### Mockups Mobile de la Landing Page
 
 **Landing Mockup Mobile 1**
 
-![Landing Mockup Mobile 1](Images/Landing%20Mockup%20Mobile/1_mouck_movil.png)
+![Landing Mockup Mobile 1](<Landing Mockup Mobile/1_mouck_movil.png>)
 
 **Landing Mockup Mobile 2**
 
-![Landing Mockup Mobile 2](Images/Landing%20Mockup%20Mobile/2_mouck_movil.png)
+![Landing Mockup Mobile 2](<Landing Mockup Mobile/2_mouck_movil.png>)
 
 **Landing Mockup Mobile 3**
 
-![Landing Mockup Mobile 3](Images/Landing%20Mockup%20Mobile/3_mouck_movil.png)
+![Landing Mockup Mobile 3](<Landing Mockup Mobile/3_mouck_movil.png>)
 
 **Landing Mockup Mobile 4**
 
-![Landing Mockup Mobile 4](Images/Landing%20Mockup%20Mobile/4_mouck_movil.png)
+![Landing Mockup Mobile 4](<Landing Mockup Mobile/4_mouck_movil.png>)
 
 4.4. Web Applications UX/UI Design.
 
