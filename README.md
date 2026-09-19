@@ -272,7 +272,7 @@ Durante el Sprint 1, la Landing Page es un sitio estático informativo. La integ
 La versión `v1.0.0` de la Landing Page fue publicada exitosamente utilizando GitHub Pages automatizando el despliegue a partir de la rama `main`.
 
 <p align="center">
-  <img src="assets/images/Deployment-GH-Pages.jpg" alt="Despliegue GitHub Pages" title="Deployment Evidence" width="700">
+  <img src="Images/Deloyment Evidence.jpeg" alt="Despliegue GitHub Pages" title="Deployment Evidence" width="700">
 </p>
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -280,7 +280,7 @@ La versión `v1.0.0` de la Landing Page fue publicada exitosamente utilizando Gi
 El equipo gestionó el desarrollo utilizando repositorios de GitHub. Se aplicaron Pull Requests con revisiones cruzadas. A continuación, las analíticas de colaboración:
 
 <p align="center">
-  <img src="assets/images/Github-Insights.jpg" alt="GitHub Insights" title="Collaboration Evidence" width="700">
+  <img src="Images/Team Collaboration Insights.jpeg" alt="GitHub Insights" title="Collaboration Evidence" width="700">
 </p>
 
 ---
