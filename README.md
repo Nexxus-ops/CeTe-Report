@@ -86,7 +86,7 @@ Como evidencia de nuestra investigación cualitativa, hemos consolidado las entr
 | **ID** | E-S1-01 |
 | **Edad / Distrito** | 45 años / Santiago de Surco |
 | **Timing del video** | 00:00 - 04:15 min |
-| **Evidencia fotográfica** | <p align="center"><img src="Images/Imagen_Entrevista_Carlos.jpg" width="400" alt="Carlos Mendoza"></p> |
+| **Evidencia fotográfica** | <p align="center"><img src="Images/Carlos Mendoza.jpeg" width="400" alt="Carlos Mendoza"></p> |
 | **Resumen descriptivo** | Carlos está casado y tiene dos hijos. Administra una pequeña cadena de tres restaurantes. Su dispositivo principal es una Laptop con Windows, pero revisa todo el día su celular (iPhone). Se informa vía LinkedIn y WhatsApp, y admira marcas que proyectan estatus como Apple y a referentes locales como Gastón Acurio. Sufre de estrés porque confía en reportes de Excel elaborados a mano por su administrador, lo que genera un descuadre constante (merma). Su mayor expectativa es un panel de control (Dashboard) que le muestre en su celular si el negocio está ganando o perdiendo dinero en tiempo real. |
 
 
@@ -153,7 +153,7 @@ Como evidencia de nuestra investigación cualitativa, hemos consolidado las entr
 | **Nombres y Apellidos** | Jorge Quispe** |
 | **Edad / Distrito** | 41 años / Ate Vitarte. |
 | **Enlace del video** |[Ver entrevista de Sebastián Ramírez](https://www.youtube.com/watch?v=AItYU4_ckvU)|
-| **Evidencia fotográfica** | <p align="center"><img src="Imagen_Entrevista_Jorge.jpg" width="400" alt="Raúl Delgado"></p> |
+| **Evidencia fotográfica** | <p align="center"><img src="Images/Raul Delgado.jpeg" width="400" alt="Raúl Delgado"></p> |
 | **Resumen descriptivo** | Jorge es encargado de despachos en un consorcio de alimentos. Tiene habilidades tecnológicas moderadas y prefiere herramientas simples. Su dolor principal radica en el registro de mermas y devoluciones: el trámite en papel es tan tedioso que a veces no lo anota, generando el descuadre. Desea un sistema que con dos toques le permita registrar una merma.|
 
 ### 2.2.3. Análisis de entrevistas
