@@ -195,9 +195,10 @@ Para validar nuestros Feature Assumptions, planteamos las siguientes hipótesis:
 * ¿Cuál es el mínimo esfuerzo para probar nuestro supuesto más riesgoso?
     * Crear un Landing Page con los planes de pago para medir la intención de compra (conversión).
     * Desarrollar un Prototipo interactivo (Figma) del módulo de ingreso rápido de mercadería y testearlo directamente con operarios de almacén para ver si les parece más fácil que usar un cuaderno.
-
-*(Pendiente: Insertar diagrama visual del Lean UX Canvas exportado como imagen)*
-
+<div>
+  <img src = "Images/Lean UX Canvas.jpeg">
+</div>
+    
 ## 1.3. Segmentos objetivo
 
 Para el desarrollo de CeTe bajo el modelo B2B SaaS, nos enfocaremos en dos segmentos de usuarios clave, validando que nuestra "plantilla web" cubre tanto las necesidades de control gerencial como la agilidad operativa que requieren rubros como gastronomía, textil y consorcios de alimentos.
