@@ -96,7 +96,7 @@ Como evidencia de nuestra investigación cualitativa, hemos consolidado las entr
 | **ID** | E-S1-02 |
 | **Edad / Distrito** | 38 años / San Borja |
 | **Timing del video** | 04:16 - 08:30 min |
-| **Evidencia fotográfica** | <p align="center"><img src="Images/Lucia Valdivia.jpeg" width="400" alt="Lucía Valdivia"></p> |
+| **Evidencia fotográfica** | <p align="center"><img src="Images/Lucia Valdivia1.jpeg" width="400" alt="Lucía Valdivia"></p> |
 | **Resumen descriptivo** | Lucía es soltera y fundadora de una MYPE textil. Pasa casi todo su día en su Smartphone (Android de gama alta) y utiliza mucho Instagram y WhatsApp Business para vender. Su mayor frustración es que se le ha paralizado la producción varias veces porque olvidó comprar hilos o botones específicos, ya que el control lo lleva en un cuaderno. Expresó que aprender sistemas nuevos le asusta un poco, por lo que pide que la solución tenga botones muy claros y alertas de colores cuando falte mercadería. |
 
 
