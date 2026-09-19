@@ -20,14 +20,15 @@ Utilizado para la gestión del Product Backlog, Sprint Backlog y el seguimiento 
 https://www.atlassian.com/software/jira
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_Jira.png" alt="Jira" title="Jira" width="250">
+  <img src="Images/Jira.png" alt="Jira" title="Jira" width="250">
 </p>
 
 **Google Meet & WhatsApp:**
 Empleados para las ceremonias formales de Scrum (Daily, Planning, Review) y como canales de comunicación asincrónica para coordinar avances diarios.
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_Meet_Wsp.png" alt="Meet y WhatsApp" title="Comunicaciones" width="250">
+  <img src="Images/Meet.png" alt="Meet y WhatsApp" title="Comunicaciones" width="250">
+  <img src="Images/Whatsapp.png" alt="Meet y WhatsApp" title="Comunicaciones" width="250">
 </p>
 
 **2. Requirements Management**
@@ -37,7 +38,7 @@ Utilizado para la elaboración de los User Personas, Empathy Maps, Journey Maps 
 https://uxpressia.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_UXPressia.png" alt="UXPressia" title="UXPressia" width="250">
+  <img src="Images/UXPressia.png" alt="UXPressia" title="UXPressia" width="250">
 </p>
 
 **3. Product UX/UI Design**
@@ -47,7 +48,7 @@ Herramienta de diseño colaborativo en la nube empleada para elaborar los wirefr
 https://www.figma.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_Figma.png" alt="Figma" title="Figma" width="250">
+  <img src="Images/Figma.png" alt="Figma" title="Figma" width="250">
 </p>
 
 **4. Software Development**
@@ -57,49 +58,51 @@ Editores principales para el desarrollo Frontend (HTML, CSS, JS, Vue.js). La con
 https://code.visualstudio.com/
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_VSCode.jpg" alt="Visual Studio Code" title="Visual Studio Code" width="250">
+  <img src="Images/Visual Studio Code.png" alt="Visual Studio Code" title="Visual Studio Code" width="250">
 </p>
 
 **Visual Studio 2022 / JetBrains Rider:**
 Entornos de desarrollo integrados (IDE) robustos utilizados para la programación del Backend en C# con .NET 8.
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_VS2022.png" alt="Visual Studio 2022" title="Visual Studio 2022" width="250">
+  <img src="Images/Visual Studio 2022.png" alt="Visual Studio 2022" title="Visual Studio 2022" width="250">
 </p>
 
 **HTML5 / CSS3 / JavaScript (ES6+):**
 Tecnologías base de la Landing Page desplegada en el Sprint 1.
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_HTML_CSS_JS.png" alt="HTML5 CSS3 JavaScript" title="HTML5 / CSS3 / JavaScript" width="250">
+  <img src="Images/HTML5.png" alt="HTML5 CSS3 JavaScript" title="HTML5 / CSS3 / JavaScript" width="250">
+  <img src="Images/CSS3.png" alt="HTML5 CSS3 JavaScript" title="HTML5 / CSS3 / JavaScript" width="250">
+  <img src="Images/JavaScript.png" alt="HTML5 CSS3 JavaScript" title="HTML5 / CSS3 / JavaScript" width="250">
 </p>
 
 **Vue.js & PrimeVue:**
 Framework progresivo y biblioteca de componentes seleccionados para el desarrollo de la Single Page Application (Web App de Inventario y Ventas).
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_VueJS.png" alt="Vue.js" title="Vue.js" width="250">
+  <img src="Images/Vue.png" alt="Vue.js" title="Vue.js" width="250">
 </p>
 
 **ASP.NET Core & C#:**
 Framework y lenguaje utilizados para el desarrollo del RESTful API de CeTe, responsable de la lógica de negocio orientada a dominio (DDD).
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_AspNetCore.png" alt="ASP.NET Core" title="ASP.NET Core" width="250">
+  <img src="Images/ASP.NET Core.png" alt="ASP.NET Core" title="ASP.NET Core" width="250">
 </p>
 
 **Entity Framework Core & PostgreSQL:**
 ORM y base de datos relacional definidos para almacenar el estado transaccional, inventario y métricas de CeTe.
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_PostgreSQL.png" alt="PostgreSQL" title="PostgreSQL" width="250">
+  <img src="Images/PostgreSQL.png" alt="PostgreSQL" title="PostgreSQL" width="250">
 </p>
 
 **Git & GitHub:**
 Sistema de control de versiones y plataforma de colaboración para alojar repositorios, aplicar GitFlow y Pull Requests.
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_GitHub.jpg" alt="GitHub" title="GitHub" width="250">
+  <img src="Images/GitHub.png" alt="GitHub" title="GitHub" width="250">
 </p>
 
 **5. Software Deployment**
@@ -108,7 +111,7 @@ Sistema de control de versiones y plataforma de colaboración para alojar reposi
 Servicio de alojamiento estático utilizado para publicar la primera versión de la Landing Page de CeTe directamente desde la rama `main`.
 
 <p align="center">
-  <img src="assets/images/Cap5_Logo_GitHubPages.jpg" alt="GitHub Pages" title="GitHub Pages" width="250">
+  <img src="Images/GitHub Pages.png" alt="GitHub Pages" title="GitHub Pages" width="250">
 </p>
 
 ---
@@ -238,7 +241,9 @@ Esta sección expone la evidencia técnica del progreso alcanzado. La Landing Pa
 
 *(Nota: Capturas del código HTML, CSS y JS pendientes de inserción desde el repositorio).*
 <p align="center">
-  <img src="assets/images/Code-evidence-placeholder.jpg" alt="Evidencia de Código" title="Development Evidence" width="700">
+  <img src="Images/Evidencia de Código.png" alt="Evidencia de Código" title="Development Evidence" width="700">
+  <img src="Images/Evidencia de Código 1.png" alt="Evidencia de Código" title="Development Evidence" width="700">
+  <img src="Images/Evidencia de Código 2.png" alt="Evidencia de Código" title="Development Evidence" width="700">
 </p>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
@@ -246,11 +251,16 @@ Esta sección expone la evidencia técnica del progreso alcanzado. La Landing Pa
 Se validó el comportamiento responsive, el menú móvil y las secciones de la Landing Page en navegadores de escritorio y dispositivos móviles.
 
 <p align="center">
-  <img src="assets/images/Landing-Execution-Desktop.jpg" alt="Ejecución Desktop" title="Execution Desktop" width="700">
+  <img src="Images/Ejecución Desktop 1.png" alt="Evidencia de Código" title="Development Evidence" width="700">
+  <img src="Images/Ejecución Desktop 2.png" alt="Evidencia de Código" title="Development Evidence" width="700">
+  <img src="Images/Ejecución Desktop 3.png" alt="Evidencia de Código" title="Development Evidence" width="700">
 </p>
 
 <p align="center">
-  <img src="assets/images/Landing-Execution-Mobile.jpg" alt="Ejecución Mobile" title="Execution Mobile" width="300">
+  <img src="Images/Ejecución Mobile.png" alt="Ejecución Mobile" title="Execution Mobile" width="300">
+  <img src="Images/Ejecución Mobile 1.png" alt="Ejecución Mobile" title="Execution Mobile" width="300">
+  <img src="Images/Ejecución Mobile 2.png" alt="Ejecución Mobile" title="Execution Mobile" width="300">
+  <img src="Images/Ejecución Mobile 3.png" alt="Ejecución Mobile" title="Execution Mobile" width="300">
 </p>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
