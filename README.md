@@ -151,8 +151,3 @@ Para la estimación del esfuerzo se utiliza la secuencia de Fibonacci (1, 2, 3, 
 Las Technical Stories (TS) se gestionan como trabajo técnico asociado a las User Stories correspondientes y no se suman nuevamente a los Story Points del Product Backlog, con el objetivo de evitar una doble estimación del mismo esfuerzo. Estas historias técnicas incluyen, principalmente, la implementación de endpoints, validaciones, mecanismos de autenticación, consultas y operaciones necesarias para soportar las funcionalidades definidas en las User Stories.
 
 Finalmente, la gestión y seguimiento del Product Backlog se realiza mediante Jira Software, donde las funcionalidades se organizan mediante una jerarquía de Epics, User Stories y Technical Stories, permitiendo administrar su prioridad, estimación, estado, dependencias y avance durante el desarrollo del proyecto.
-
-<p align="center">
-  <img src="assets/images/Captura_Tablero_Backlog.jpg" alt="Product Backlog" width="800">
-  <br><em>Figura 2: Captura del Product Backlog hecho en Jira</em>
-</p>
